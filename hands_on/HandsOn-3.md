@@ -3,7 +3,7 @@
 
 ## make
 
-1. Aprenda algo sobre [make](re-carpentry.org/v4/make/), y haga un resumen básico de su funcionalidad. **log**
+1. Aprenda algo sobre [make](http://re-carpentry.org/v4/make/), y haga un resumen básico de su funcionalidad. **log**
 2. Descargue e instale [lammps](http://lammps.sandia.gov/) descargando el código fuente y compilando con la ayuda de **make**. *No* lo haga al interior de su repositorio de GitHub.
 
 ## Python
