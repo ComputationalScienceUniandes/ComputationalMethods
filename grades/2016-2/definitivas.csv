@@ -1,21 +1,20 @@
-,,,,,,,,,,,
-Nombre,ID,Tarea 1,Tarea 2,Tarea 3, Tarea 4,Tarea 5,Bono Lab,Bono Examen,Bono Clase #1,Bono Clase #2,Total
-Aguirre Lamus,Santiago,100,38,98,90,,0.4,0.45,0.1,0.1,4.31
-Ariza Mejia,Juan Felipe,100,100,100,100,,0.4,0.3,0.1,0.1,4.9
-Arrubla Arango,Felipe,91,70,38,94,,0,0.1,,,3.03
-Calderon Ossa,Francisco,100,100,81,98,,0.2,0.4,0.1,0.1,4.59
-Diaz Meza,Sergio Andres,100,0,76,69,,0,0.3,0.1,,2.85
-Franco Ulloa,Sebastian,98,100,100,100,,0.4,0.35,0.1,0.1,4.93
-Gonzalez Ortiz,Cristhian Eduardo,100,98,95,100,,0.2,0.35,,,4.48
-Henriquez Bernal,David Alejandro,95,85,77,83,,0,0.3,0.1,,3.8
-Jauregui Sarmiento,Nestor Ivan,80,0,38,95,,0.4,0.3,0.1,0.1,3.03
-Laguna Guantiva,Mateo,100,100,72,95,,0.2,0.3,0.1,0.1,4.37
-Lopez Ramirez,Juan Camilo,100,0,100,100,,0.4,0.45,0.1,0.1,4.05
-Marin Jimenez,Nathan Mateo,100,83,86,100,,0.4,0.3,0.1,0.1,4.59
-Martinez Medina,Nathalie Melissa,98,98,85,70,,0,0.3,,,3.81
-Mateus Ortigoza,Camilo Andres,98,86,86,90,,0,0,,0.1,3.7
-Niño Chaparro,Alejandro,98,100,76,83,,0.2,0.4,0.1,0.1,4.37
-Perez Aponte,Juan Sebastian,98,36,0,70,,0,0.15,,,2.19
-Romero Correa,Daniel,100,70,83,83,,0.2,0.4,,0.1,4.06
-Toledo Navarro,Alvaro Andres,92,81,31,60,,0,0.1,,,2.74
-Velasquez Moros,Andrea,100,100,95,100,,0.4,0.3,0.1,0.1,4.85
+Nombre,ID,Tarea 1,Tarea 2,Tarea 3, Tarea 4,Tarea 5,Bono Lab,Bono Examen,Bono Clase #1,Bono Clase #2,Total,Definitiva
+Aguirre Lamus,Santiago,100,38,98,90,96,0.4,0.45,0.1,0.1,5.3,5.0
+Ariza Mejia,Juan Felipe,100,100,100,100,96,0.4,0.3,0.1,0.1,5.9,5.0
+Arrubla Arango,Felipe,91,70,38,94,0,0,0.1,,,3.0,3.0
+Calderon Ossa,Francisco,100,100,81,98,100,0.2,0.4,0.1,0.1,5.6,5.0
+Diaz Meza,Sergio Andres,100,0,76,69,59,0,0.3,0.1,,3.4,3.4
+Franco Ulloa,Sebastian,98,100,100,100,100,0.4,0.35,0.1,0.1,5.9,5.0
+Gonzalez Ortiz,Cristhian Eduardo,100,98,95,100,92,0.2,0.35,,,5.4,5.0
+Henriquez Bernal,David Alejandro,95,85,77,83,58,0,0.3,0.1,,4.4,4.4
+Jauregui Sarmiento,Nestor Ivan,80,0,38,95,94,0.4,0.3,0.1,0.1,4.0,4.0
+Laguna Guantiva,Mateo,100,100,72,95,74,0.2,0.3,0.1,0.1,5.1,5.0
+Lopez Ramirez,Juan Camilo,100,0,100,100,88,0.4,0.45,0.1,0.1,4.9,4.9
+Marin Jimenez,Nathan Mateo,100,83,86,100,95,0.4,0.3,0.1,0.1,5.5,5.0
+Martinez Medina,Nathalie Melissa,98,98,85,70,70,0,0.3,,,4.5,4.5
+Mateus Ortigoza,Camilo Andres,98,86,86,90,0,0,0,,0.1,3.7,3.7
+Niño Chaparro,Alejandro,98,100,76,83,98,0.2,0.4,0.1,0.1,5.4,5.0
+Perez Aponte,Juan Sebastian,98,36,0,70,0,0,0.15,,,2.2,2.2
+Romero Correa,Daniel,100,70,83,83,96,0.2,0.4,,0.1,5.0,5.0
+Toledo Navarro,Alvaro Andres,92,81,31,60,71,0,0.1,,,3.5,3.5
+Velasquez Moros,Andrea,100,100,95,100,96,0.4,0.3,0.1,0.1,5.8,5.0
