@@ -21,9 +21,11 @@ int main(void)
 	y1 = m/2 + d/(h*2) - 1;
 	
 	double *V = malloc(m*m*sizeof(double));
+	double *V_new = malloc(m*m*sizeof(double));
 	
 	V = init(x0, x1, y0, y1, V);
-	
+	V_new = init(x0, x1, y0, y1, V);
+
 	while (n < N)
 	{		
 		for(i=1;i < m-1; i++)
@@ -37,12 +39,23 @@ int main(void)
 				if (!(j >= x0 && j <= x1 && i == y0) && !(j >= x0 && j <= x1 && i == y1))
 				{
 					average = (V[up] + V[down] + V[left] + V[right])/4;
-					V[transformer(i,j)] = average;
+					V_new[transformer(i,j)] = average;
 				}
 			}
 		}
+
+		for(i=1;i < m-1; i++)
+		  {
+		    for(j=1;j < m-1; j++)
+			  {
+			    V[transformer(i,j)] = V_new[transformer(i,j)] ;
+			  }
+		  }
+
 		n += 1;
 	}
+	
+	
 	
 	for(i=0;i < m; i++)
 	{
@@ -51,6 +64,7 @@ int main(void)
 			printf("%f\n", V[transformer(i,j)]);
 		}
 	}
+	return 0;
 }
 
 int transformer(int i, int j)
