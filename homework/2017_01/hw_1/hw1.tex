@@ -1,0 +1,117 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+{\Large Métodos Computacionales} \\
+Tarea 1 - \textsc{Linux y Python Básico}\\
+09-02-2017\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(164mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.3cm}
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de las 10:00PM
+del viernes 24 de Febrero del 2017. 
+%\noindent
+%Si la soluci\'on est\'a en SICUA
+%antes de las 8:30AM del domingo 31 de Enero del 2016 se calificar\'a
+%el taller sobre 125 puntos. 
+\noindent
+Los archivos c\'odigo fuente deben subirse en un \'unico archivo
+\verb".zip" con el nombre \verb"NombreApellido_hw1.zip", por ejemplo
+yo deber\'ia subir el zip \verb"VeronicaArias_hw1.zip" (10 puntos). Recuerden que es un trabajo individual.
+
+\vspace{0.3cm}
+
+\begin{questions}
+
+\question[35] {\bf{Curvas de rotación de Galaxias}}
+
+Una de las primeras evidencias indirectas de la existencia de materia oscura fue el resultado de las observaciones hechas por Vera Rubin de las curvas de rotación de las galaxias. Estas observaciones consisten en medir las velocidades de las estrellas en función de la distancia de éstas al centro de la galaxia. A partir de estas velocidades uno puede inferir la cantidad de masa que debe tener la galaxia. Al compararla con la masa inferida a partir de la luminosidad de la galaxia (masa de la materia luminosa), Vera Rubin encontró que la masa inferida a partir de las velocidades es mayor que la masa ''luminosa'' y que por lo tanto debe haber materia oscura. 
+
+En \url{http://iopscience.iop.org/1538-3881/122/5/2396/fulltext/datafile3.txt} están datos de velocidad observada (columna 7) en función del radio en kpc (columna 2) para una serie de galaxias. Además hay datos de velocidades esperadas si la masa de la galaxia fuera solo la del gas, la del disco de la galaxia o la del bulbo de la galaxia (columnas 4, 5 y 6 respectivamente).  
+
+El primer ejercicio consiste en desarrollar un script (llamado \verb"CurvasDeRotacion.sh.") que baje y cree un archivo de datos y una rutina en python (llamado \verb"PLOTS_RotationCurves.py.") con varias funciones que les permitan leer, organizar y graficar los datos.
+
+El script  \verb"CurvasDeRotacion.sh." debe:
+\begin{itemize}
+\item{Crear un directorio llamado \verb"RotationCurves" y entrar a dicho directorio}
+\item{Bajar el archivo \verb"datafile3.txt"}
+\item{A partir de \verb"datafile3.txt" generar un archivo llamado \verb"RotationCurve_F571-8.txt" que contenga los datos de la galaxia F571-8} 
+\item{Correr la rutina \verb"PLOTS_RotationCurves.py." en python} 
+\item{Borrar el archivo \verb"datafile3.txt"} 
+%\item{} 
+\end{itemize}
+
+La rutina de Python \verb"PLOTS_RotationCurves.py." debe:
+\begin{itemize}
+\item{Leer el archivo llamado \verb"RotationCurve_F571-8.txt" y guardar las variables relevantes en arrays}
+\item{Graficar en una misma gráfica la velocidad medida en función del radio (en color negro) y la suma de las velocidades esperadas (gas+disco+bulbo) (en color verde). 
+Esta gráfica debe ser clara, con \emph{labels} para las distintas curvas y ejes debidamente rotulados.}
+\item{Guardar la gráfica anterior (sin mostrarla) en \verb"RotationCurvePlot.pdf"}
+%\item{} 
+\end{itemize}
+
+\newpage
+
+\question[55] {\bf{Convección en la atmósfera}}
+
+La convección es uno de los mecanismos de transferencia de calor en la atmósfera. Para que haya convección se necesita que una burbuja de aire que se desplaza una distancia $\Delta z$ hacia arriba, después de expandirse para quedar a la misma presión que sus alrededores, sea menos densa que estos, y por lo tanto siga subiendo. A partir de datos de temperatura $T$ en función de la altura $z$ se puede calcular el gradiente vertical de temperatura $\frac{dT}{dz}$. Asumiendo una atmósfera seca, se puede determinar si a distintas alturas la atmósfera es estable o inestable. Para esto se compara el gradiente de tempreatura observado $\frac{dT}{dz}$ con el gradiente de temperatura adiabático seco $(\frac{dT}{dz})_{ad}=-9.8^{o}/km$.
+ 
+Para este ejercicio deben utilizar datos de temperatura medidos por una radiosonda en Bogotá (archivo \verb"DatosRadioSonda.dat", tomado de \url{http://weather.uwyo.edu/upperair/sounding.html}). Deben escribir un script (llamado \verb"Convection.sh.") que genere un archivo de datos y una rutina en python (llamado \verb"PLOTS_Convection.py.") con varias funciones que les permitan leer, organizar, interpolar, derivar y graficar los datos.
+
+El script  \verb"Convection.sh." debe:
+\begin{itemize}
+\item{Crear un directorio llamado \verb"Convection" y entrar a dicho directorio}
+\item{Mover el archivo \verb"DatosRadioSonda.dat" al directorio \verb"Convection"}
+\item{A partir de \verb"DatosRadioSonda.dat" generar un archivo llamado \verb"TempHeight.txt" que contenga sólo los datos de temperatura y altura.}
+\item{Correr la rutina \verb"PLOTS_Convection.py." en python}
+%\item{Borrar el archivo \verb"DatosRadioSonda.dat"} 
+%\item{} 
+\end{itemize}
+
+La rutina de Python \verb"PLOTS_Convection.py." debe:
+\begin{itemize}
+\item{Leer el archivo llamado \verb"TempHeight.txt" y guardar las variables relevantes en arrays}
+\item{Graficar Temperatura medida en función de la altura (en color rojo). 
+Esta gráfica debe ser clara, con \emph{labels} para la curva y ejes debidamente rotulados.}
+\item{Guardar la gráfica anterior (sin mostrarla) en \verb"TemperaturePlot.pdf"}
+\item{Interpolar los datos medidos entre $z=2500$ y $z=25000$m (que tienen intervalos irregulares) con el método de splines para intervalos de $150$m. Hay un ejemplo en:\\
+ {\small \url{https://github.com/ComputoCienciasUniandes/MetodosComputacionales/tree/master/notes/07.Interpolation}}.\\
+Generar a partir de la interpolación, una serie de datos de Temperatura versus altura para intervalos regulares de altura}
+\item{Calcular el gradiente de temperatura usando derivación numérica.}
+\item{Comparar el gradiente vertical de temperatura con el gradiente adiabático a lo largo de $z$. Graficar los puntos para los cuales el {\bf valor absoluto} del gradiente de temperatura es mayor que el del adiabático (criterio para que haya convección) y guardar esa gráfica (sin mostrarla) en \verb"ConvectionPLOT.pdf" }
+\item{Graficar el gradiente vertical de temperatura en función de z y el gradiente adiabático en función de la altura. 
+Esta gráfica debe ser clara, con \emph{labels} para la curva y ejes debidamente rotulados.}
+\item{Guardar la gráfica anterior (sin mostrarla) en \verb"GradientsPlot.pdf"}
+%\item{} 
+\end{itemize}
+
+\end{questions}
+
+\end{document}
