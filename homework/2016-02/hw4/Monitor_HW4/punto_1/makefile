@@ -6,7 +6,7 @@ output.txt: placas
 	./placas > output.txt
 
 placas: placas.c
-	gcc -fopenmp placas.c -o placas
+	gcc placas.c -o placas -fopenmp
 
 clean:
 	rm -f output.txt placas

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "omp.h"
+#include <omp.h>
 int L = 5, l = 2, d = 1, V0 = 100, m, N;
 double h = 0.01;
 
@@ -32,9 +32,9 @@ int main(void)
 	while (n < N)
 	{		
 
-	  omp_set_num_threads(4);
-#pragma parallel for private(j,up, down, left, right, average), shared(V, V_new)
-	  {
+	  //	  omp_set_num_threads(4);
+#pragma omp parallel for private(j,up, down, left, right, average), shared(V, V_new)
+
 	  for(i=1;i < m-1; i++)
 		{
 			for(j=1;j < m-1; j++)
@@ -50,7 +50,7 @@ int main(void)
 				}
 			}
 		}
-	  }
+
 		for(i=1;i < m-1; i++)
 		  {
 		    for(j=1;j < m-1; j++)
