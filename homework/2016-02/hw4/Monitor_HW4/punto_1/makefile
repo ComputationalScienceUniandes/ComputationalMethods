@@ -1,9 +1,12 @@
 v.png: plotter.py output.txt
 	python plotter.py
-	rm -f output.txt placas
+#	rm -f output.txt placas
 
 output.txt: placas
 	./placas > output.txt
 
 placas: placas.c
-	gcc -o placas placas.c
+	gcc -fopenmp placas.c -o placas
+
+clean:
+	rm -f output.txt placas

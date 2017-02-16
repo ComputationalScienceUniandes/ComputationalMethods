@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "omp.h"
 int L = 5, l = 2, d = 1, V0 = 100, m, N;
-double h = 0.02;
+double h = 0.01;
 
 int transformer(int i, int j);
 double *init(int x0, int x1, int y0, int y1, double *array);
 
 int main(void)
 {
-	int up, down, left, right, x0, x1, y0, y1, i=1, j=1, n=0;
+  int up, down, left, right, x0, x1, y0, y1, i=1, j=1, n=0, k;
 	double average;
 	
 	m = L/h;
@@ -22,13 +22,20 @@ int main(void)
 	
 	double *V = malloc(m*m*sizeof(double));
 	double *V_new = malloc(m*m*sizeof(double));
+	for(i=0;i<m*m;i++){
+	  V[i] = 0.0;
+	}
 	
 	V = init(x0, x1, y0, y1, V);
 	V_new = init(x0, x1, y0, y1, V);
 
 	while (n < N)
 	{		
-		for(i=1;i < m-1; i++)
+
+	  omp_set_num_threads(4);
+#pragma parallel for private(j,up, down, left, right, average), shared(V, V_new)
+	  {
+	  for(i=1;i < m-1; i++)
 		{
 			for(j=1;j < m-1; j++)
 			{
@@ -43,7 +50,7 @@ int main(void)
 				}
 			}
 		}
-
+	  }
 		for(i=1;i < m-1; i++)
 		  {
 		    for(j=1;j < m-1; j++)
