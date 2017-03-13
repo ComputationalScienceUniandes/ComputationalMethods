@@ -1,0 +1,18 @@
+Nombre,A. Iniciales,Rotation,Convection,Total,Errors
+EstebanSalgado,0,31,44,75,"P1. No ejecuta .py. Nombre P2. Error en DatosRadioSonda, no ejecuta el py, nombres de los archivos. Convection"
+SofiaCarvajal,0,33,49,82,"P1. Mover .py P2. Mover.py En temperature los ejes estan al revés, falta el gradiente teórico en gradiente."
+JesusRojas,10,35,55,100,
+FelipeCharris,0,27,44,71,"P1. Columnas erroneas,emacs, open, no mueve .py. P2. No mueve .py .dat, unidades, convection=gradient."
+JuanPabloRodriguez,10,28,47,85,"P1. Mover, awk P2. Mover los archivos de directorio. Figure is not defined. Legend"
+DavidNaranjo,0,29,49,78,"P1. P2. touch, mv, .py, unidades"
+MiguelAlarcon,10,33,53,96,P1. Nombre. P2. ConvectionPLOT
+CarlosHernandez,10,35,55,100,
+JulianPulido,10,33,53,96,P1. P2. Mover .py.
+OscarClavijo,10,35,51,96,P2. Unidades. Jerarquía.
+AlejandroLozada,10,33,55,98,P1. Falla al mover el .py.
+JorgeTorres,10,33,55,98,P1. Unidades
+FelipeBeron,10,35,55,100,
+JonathanCotrino,0,35,55,90,Zip != tar
+RocioJaimes,0,28,48,76,"Zip != tar P1. Muestra la gráfica, columnas incorrectas. P2. Muestra la gráfica, se genera dos."
+MauricioNeira,10,35,55,100,
+JuanQuijano,0,33,53,86,Zip != tar. P1.Jerarquía. P2. Unidades del gradiente

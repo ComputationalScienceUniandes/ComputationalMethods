@@ -1,0 +1,19 @@
+Nombre,A. Iniciales,Rotation,Convection,Total,
+JulianRodriguez,10,35,55,100,
+AndresHerrera,0,33,53,86,P1.P2. Jerarquía
+ManuelSanchez,10,35,55,100,
+JuanHurtado,10,35,53,98,P2. No ejecuta el .py
+JuanObando,0,33,45,78,"P1. P2. Jerarquía. Error en el nombre de los archivos, no ejecuta el .py, se grafican los resultados uno sobre otro"
+AlejandraJauregui,10,35,48,93,P2. Falta Convection y error en el nombre de fig
+DanielLara,0,28,45,73,"P1. Error en el nombre del archivo, savefig, unidades, labels. P2. No cambia .py, tampoco lo ejecuta. Error en gentxt. Labels en T/H."
+CristianBorja,10,33,53,96,P1. P2. Jerarquía
+IvanBurbano,10,35,55,100,
+CarlosNavarrete,10,35,55,100,
+LuisaRengifo,10,35,55,100,
+MateoCotrino,10,35,15,60,"P1. Unidades, ejes. P2. awk unexpected ‘.’, scipy.inter?, error al cargar, longitudes de x y, unidades, faltan definiciones."
+AlejandraGonzalez,0,26,37,63,"P1. Los archivos no tienen la jerarquía pedida. No se ejecuta .py. Al quitar una columna en loadtxt, se grafican valores erroneos. P2. Open .py?. Muestra las graficas. Jerarquía. Nombres de los archivos., unidades, ejes. Where Abs > Abs?"
+BorisSaenz,0,35,55,90,
+DavidPaipa,10,35,55,100,
+SantiagoVillamil,10,35,53,98,P2. En temperature los ejes estan al contrario
+SebastianDelRio,0,35,55,90,
+JavierAcevedo,0,35,50,85,P2. Derivada para forward no es 2dx
