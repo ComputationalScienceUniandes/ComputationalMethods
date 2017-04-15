@@ -1,0 +1,19 @@
+Nombre,A. Iniciales (10),FourierAnalysis (35),Troyanos (55),Total,Errores
+JulianRodriguez,10,35,55,100,
+AndresHerrera,0,35,45,80,Incluye los resultados. P2. MassPLOT debe ser uno solo. Troyano debe contener una perturbación
+ManuelSanchez,10,30,55,95,P1. Sin audio
+JuanHurtado,10,20,40,70,P1. Filtros mal implementados. P2. Implementación debe ser por clases. Incompleto
+JuanObando,10,35,15,60,P2. Incompleto
+AlejandraJauregui,0,25,20,45,Incluye resultados. P1. TypeError: slice indices must be integers or None or have an __index__ method line 16. ValueError: Unsupported data type 'complex128' line 155 . P2. Incompleto
+DanielLara,10,20,20,50,P1. TypeError: only length-1 arrays can be converted to Python scalars in line 10. Multiple Errors. Incompleto
+CristianBorja,10,30,25,65,P1. TypeError: slice indices must be integers or None or have an __index__ method line 59. P2. SyntaxError: invalid syntax line 19. Incompleto
+IvanBurbano,10,35,55,100,
+CarlosNavarrete,10,35,55,100,
+LuisaRengifo,10,30,20,60,P1. TypeError: slice indices must be integers or None or have an __index__ method line 25. P2. Incompleto
+MateoCotrino,0,0,0,0,Tarea pasada (?)
+AlejandraGonzalez,0,25,30,55,Incluye resultados. P1 ValueError: The truth value of an array with more than one element is ambiguous line 91. P2. SyntaxError: invalid token line 47. Incompleto
+BorisSaenz,10,35,50,95,P2. Perturbación
+DavidPaipa,10,35,55,100,
+SantiagoVillamil,10,30,40,80,P1. TypeError: slice indices must be integers or None or have an __index__ method line 29. Incompleto.
+SebastianDelRio,,,,0,
+JavierAcevedo,10,35,55,100,

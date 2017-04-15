@@ -1,0 +1,23 @@
+Nombre,A. Iniciales,Masas,PCA,Total,Errors
+JulianRodriguez,10,55,45,110,
+AndresHerrera,10,55,45,110,
+ManuelSanchez,10,55,45,110,
+JuanHurtado,10,40,40,90,"P1. numpy.linalg.linalg.LinAlgError: Singular matrix. P2. python: can't open file 'PCA_PacificoSur.py': [Errno 2] No such file or directory
+
+"
+JuanObando,10,55,20,85,"P2. ValueError: x and y must have same first dimension, but have shapes (444,) and (456,). Falta an‡lisis de PCA.
+"
+AlejandraJauregui,10,45,35,90,"P1. Falta gr‡fica, valores errados. P2. ValueError: could not convert string to float: Year. IndexError: list index out of range. Grafica PCA
+"
+DanielLara,10,10,0,20,P1. P2. Falta
+CristianBorja,10,51,43,104,P1. ValueError: The truth value of an array with more than one element is ambiguous. Show. P2. No mueve el script de Python
+IvanBurbano,10,55,45,110,
+CarlosNavarrete,10,55,45,110,
+LuisaRengifo,10,55,40,105,P2. Grafica PCA
+MateoCotrino,0,30,25,55,"Nombres. P1. Graficas, valores. P2. Directory not name .sh, PCA room. Incompleto"
+AlejandraGonzalez,0,50,33,83,P1. Grafica para una unica variable P2. No encuentra PCA_PacificoSur.py.  Error en index. Grafica
+BorisSaenz,0,55,30,85,Zip != rar. P2. FileNotFoundError: [Errno 2] No such file or directory: 'taller.txt'. Years. X and y length error
+DavidPaipa,10,53,43,106,P1. Un par de valores de theta incorrectos. P2. PCA grafica
+SantiagoVillamil,10,40,40,90,P1. visual. P2. Base
+SebastianDelRio,10,55,40,105,P2. Orden vectores
+JavierAcevedo,10,55,45,110,

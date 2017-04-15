@@ -1,0 +1,19 @@
+Nombre,A. Iniciales (10),FourierAnalysis (35),Troyanos (55),Total,Errores
+EstebanSalgado,0,15,0,15,Incluye resultados. Notebook != script. P1. Violin filtros ejes. Filtros mal implementados.
+SofiaCarvajal,0,30,20,50,P1. Audios. P2. Incompleto
+JesusRojas,0,35,30,65,Fourier != fourier. P2. NameError: name 'a' is not defined line 96
+FelipeCharris,0,10,20,30,Incluye ViolinTrompeta.pdf P1. IndentationError: expected an indented block line 82. SyntaxError: EOL while scanning string literal line 128. SyntaxError: duplicate argument 'fftv' in function definition line 76. P2. Incompleto. Implementación de la clase
+JuanPabloRodriguez,10,25,20,55,"P1. NameError: name 'rfftfreq' is not defined line 14.  NameError: name 'figure' is not defined line 19. ‘where’ is not defined line 49. P2.  missing 1 required positional argument: 'm0' line 80. 'planetas' object has no attribute 'x'
+Line 79"
+DavidNaranjo,10,25,25,60,"P1. Filtros incorrectos, posición != frecuencia. P2. SyntaxError: invalid syntax line 110. Divide by zero warning. ValueError: setting an array element with a sequence. Incompleto"
+MiguelAlarcon,10,35,55,100,
+CarlosHernandez,10,30,50,90,P1. NumPy ceil returns float. TypeError: slice indices must be integers or None or have an __index__ method line 18. P2. OrbitsPLOT.pdf star
+JulianPulido,10,25,45,80,"P1. Filtros incorrectos, se debe evaluar la codición sobre las frecuencias y aplicarla a la FFT. P2. Graficas"
+OscarClavijo,10,35,55,100,
+AlejandroLozada,10,30,55,95,P1. violin_pasaltos != violin_pasaaltos
+JorgeTorres,10,35,20,65,P2. SyntaxError: invalid syntax line 36. Incompleto
+FelipeBeron,0,35,55,90,No incluye directorio.
+JonathanCotrino,10,30,20,60,P1. Resultados incorrectos. Al hacer shift a la frecuencia y a la transformada pierde el orden.  Incompleto
+RocioJaimes,0,20,30,50,"Incluye ViolinTrompeta.pdf. P1. Se deben implementar funciones. Guardar los audios. P2. Planetas no es clase, visual."
+MauricioNeira,10,35,55,100,
+JuanQuijano,0,0,0,0,Archivo corrupto
