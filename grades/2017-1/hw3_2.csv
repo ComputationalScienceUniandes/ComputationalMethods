@@ -15,5 +15,5 @@ AlejandraGonzalez,0,25,30,55,Incluye resultados. P1 ValueError: The truth value 
 BorisSaenz,10,35,50,95,P2. Perturbación
 DavidPaipa,10,35,55,100,
 SantiagoVillamil,10,30,40,80,P1. TypeError: slice indices must be integers or None or have an __index__ method line 29. Incompleto.
-SebastianDelRio,,,,0,
+SebastianDelRio,10,35,15,48,Sobre cuatro. P2. Incompleto
 JavierAcevedo,10,35,55,100,
