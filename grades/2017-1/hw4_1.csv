@@ -1,0 +1,18 @@
+Nombre,A. Iniciales (10),DifusionTemperatura (50),PlotsTemperatura (20),Resultados (5),Tarea4 mk (15),Total,Errores
+EstebanSalgado,0,45,15,5,10,75,GitHub. P1. P2. Promedio. P4. Makefile no compila LaTex
+SofiaCarvajal,0,30,10,5,5,50,GitHub. TARDE. P1. Tant[i][j] = Tactual[i][j] debe actualizarse al final de cada instante de tiempo “No parecen presentar un patron de difusion muy apropiado”. P2. NameError: name 'get_ipython' is not defined. P4. Los nombres no coinciden. Warning: overriding recipe for target 'AbiertaC2.png'.
+JesusRojas,0,35,15,3,5,58,"targz P1. Sobreescribe valores, no actualiza por instante de tiempo, promedio. P2. Promedio P3. Descripcion. P4. *** No rule to make target 'Plots_temperatura.py', needed by '1.png'.  Stop."
+FelipeCharris,0,35,10,0,15,60,Archivos adicionales.  P1. Casos. P2. Line #125 (got 30 columns instead of 3) Line #297 (got 16 columns instead of 3) Line #393 (got 35 columns instead of 3)
+JuanPabloRodriguez,10,15,15,5,5,50,"P1. invalid operands to binary * (have ‘float (*)[101]’ and ‘float’), sobreescribe valores no compila. P2. Promedio P4. *** No rule to make target 'data.tex', needed by 't1c1a.png'.  Stop."
+DavidNaranjo,0,35,15,0,10,60,"Archivos adicionales. P1. Resultados erroneos, sobreescribe datos, promedio. P2. Promedio. P4. datos.txt"
+MiguelAlarcon,10,50,20,5,15,110,
+CarlosHernandez,0,50,20,0,15,95,“momo.txt” LOL makefile != Tarea4.mk
+JulianPulido,0,50,18,5,10,83,"GitHub. P2. Sin mostrar graficas. P4. No rule to make target 'Difusion.x', needed by 'datos.o'.  Stop."
+OscarClavijo,0,50,20,5,15,90,Makefile != Tarea4.mk
+AlejandroLozada,,,,,,0,
+JorgeTorres,0,50,20,5,15,100,GitHub.
+FelipeBeron,10,50,20,5,15,100,
+JonathanCotrino,10,15,15,5,5,50,"P1. Incompleto, falta un header. P2. Promedio. P4. Targets no coinciden"
+RocioJaimes,0,15,20,2,15,52,"Archivos adicionales. P1. note: expected ‘double (*)[(sizetype)(columnas)]’ but argument is of type ‘int’, no compila."
+MauricioNeira,,,,,,0,
+JuanQuijano,0,40,20,0,0,60,GitHub. P1. error: ‘for’ loop initial declarations are only allowed in C99 mode. P2. Invalid syntax
