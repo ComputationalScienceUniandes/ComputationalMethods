@@ -9,10 +9,10 @@ MiguelAlarcon,10,50,20,5,15,110,
 CarlosHernandez,0,50,20,0,15,95,“momo.txt” LOL makefile != Tarea4.mk
 JulianPulido,0,50,18,5,10,83,"GitHub. P2. Sin mostrar graficas. P4. No rule to make target 'Difusion.x', needed by 'datos.o'.  Stop."
 OscarClavijo,0,50,20,5,15,90,Makefile != Tarea4.mk
-AlejandroLozada,,,,,,0,
+AlejandroLozada,0,40,20,5,15,80,TARDE. Fronteras abiertas mal implementado.
 JorgeTorres,0,50,20,5,15,100,GitHub.
 FelipeBeron,10,50,20,5,15,100,
 JonathanCotrino,10,15,15,5,5,50,"P1. Incompleto, falta un header. P2. Promedio. P4. Targets no coinciden"
 RocioJaimes,0,15,20,2,15,52,"Archivos adicionales. P1. note: expected ‘double (*)[(sizetype)(columnas)]’ but argument is of type ‘int’, no compila."
-MauricioNeira,,,,,,0,
+MauricioNeira,0,50,20,5,15,90,Nombre directorio.
 JuanQuijano,0,40,20,0,0,60,GitHub. P1. error: ‘for’ loop initial declarations are only allowed in C99 mode. P2. Invalid syntax
