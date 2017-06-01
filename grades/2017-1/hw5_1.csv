@@ -1,7 +1,7 @@
 Nombre,Git,A. Iniciales (10),canal_ionico.c (25),plots_canal_ionico.py (15),CircuitoRC.py (30),Tarea5.mk (15),Resultados_hw5.tex (5),Total,Errores
 EstebanSalgado,x,0,15,15,15,15,5,65,"Tarea5.make != Tarea5.mk. ‘for’ loop initial declarations are only allowed in C99 mode, falta Return 0, r esta mal calculado. -t/r*c equivale a -(t/r)*c, parametros mal estimados, para qué I?. Citar"
 SofiaCarvajal,,0,15,15,20,15,5,70,"GitHub. Resultados multiples y errados. No existe la cadena solo puntos aleatorios, el nuevo valor debe ser un numero aleatorio que se le suma al anterior."
-JesusRojas,,0,20,15,30,15,5,85,"GitHub. ‘for’ loop initial declarations are only allowed in C99 mode, falta Return 0,  undefined reference to `pow'."
+JesusRojas,x,10,20,15,30,15,5,95,"GitHub. ‘for’ loop initial declarations are only allowed in C99 mode, falta Return 0,  undefined reference to `pow'."
 FelipeCharris,x,0,20,10,20,5,5,60,"Tarea5.mk != tarea5.mk. error: ‘for’ loop initial declarations are only allowed in C99 mode. No mostrar las figuras. *** No rule to make target 'ej.jpg', needed by 'Resultados_hw5.pdf', el make repite instrucciones. Resultados errados, -t/R*c equivale a -(t/R)*c"
 JuanPabloRodriguez,x,10,10,15,30,15,5,85,"long es una palabra protegida, multiples errores de declaración, falta Return 0,  ‘for’ loop initial declarations are only allowed in C99 mode."
 DavidNaranjo,x,0,20,15,30,15,5,85,"tarea5.mk != Tarea5.mk. For’ loop initial declarations are only allowed in C99 mode, falta Return 0."
