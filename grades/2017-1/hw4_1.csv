@@ -5,14 +5,14 @@ JesusRojas,0,35,15,3,5,58,"targz P1. Sobreescribe valores, no actualiza por inst
 FelipeCharris,0,35,10,0,15,60,Archivos adicionales.  P1. Casos. P2. Line #125 (got 30 columns instead of 3) Line #297 (got 16 columns instead of 3) Line #393 (got 35 columns instead of 3)
 JuanPabloRodriguez,10,15,15,5,5,50,"P1. invalid operands to binary * (have ‘float (*)[101]’ and ‘float’), sobreescribe valores no compila. P2. Promedio P4. *** No rule to make target 'data.tex', needed by 't1c1a.png'.  Stop."
 DavidNaranjo,0,35,15,0,10,60,"Archivos adicionales. P1. Resultados erroneos, sobreescribe datos, promedio. P2. Promedio. P4. datos.txt"
-MiguelAlarcon,10,50,20,5,15,110,
-CarlosHernandez,0,50,20,0,15,95,“momo.txt” LOL makefile != Tarea4.mk
+MiguelAlarcon,10,50,20,5,15,100,
+CarlosHernandez,0,50,20,0,15,85,“momo.txt” LOL makefile != Tarea4.mk
 JulianPulido,0,50,18,5,10,83,"GitHub. P2. Sin mostrar graficas. P4. No rule to make target 'Difusion.x', needed by 'datos.o'.  Stop."
 OscarClavijo,0,50,20,5,15,90,Makefile != Tarea4.mk
 AlejandroLozada,0,40,20,5,15,80,TARDE. Fronteras abiertas mal implementado.
-JorgeTorres,0,50,20,5,15,100,GitHub.
+JorgeTorres,0,50,20,5,15,90,GitHub.
 FelipeBeron,10,50,20,5,15,100,
 JonathanCotrino,10,15,15,5,5,50,"P1. Incompleto, falta un header. P2. Promedio. P4. Targets no coinciden"
-RocioJaimes,0,15,20,2,15,52,"Archivos adicionales. P1. note: expected ‘double (*)[(sizetype)(columnas)]’ but argument is of type ‘int’, no compila."
+RocioJaimes,0,20,20,5,15,60,"Archivos adicionales. P1. note: expected ‘double (*)[(sizetype)(columnas)]’ but argument is of type ‘int’, no compila."
 MauricioNeira,0,50,20,5,15,90,Nombre directorio.
 JuanQuijano,0,40,20,0,0,60,GitHub. P1. error: ‘for’ loop initial declarations are only allowed in C99 mode. P2. Invalid syntax
