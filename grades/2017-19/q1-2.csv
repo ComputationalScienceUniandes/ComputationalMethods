@@ -1,0 +1,12 @@
+Name,User,Initial (2),Campo (12),Integral (8),Total,Comments
+QUIZJuanPerez,js.perez20,0,12,8,20,extrafiles: Campo.py Integral.py
+QUIZJulioRojas,jc.rojas29,2,10,4,16,"1-delta*2 != 1/(delta*2). El linspace no es necesario, para un proceso de montecarlo se aplican numeros aleatorios, tampoco debe estar el h."
+QUIZJuanMelendez,js.melendez,2,12,8,22,
+QUIZJuanFCabrera,jf.cabrera,2,10,8,20,1/2*h != 1/(2*h)
+QUIZSantiagoBarreto,s.barreto10,2,8,8,18,f[1:] - f[:-1] es forward
+QUIZCarolBarrera,cv.barrera10,2,6,8,16,"f[1:] - f[:-1] es forward, h debe ser r[1] – r[0]"
+QUIZSebastianDuran,js.duran11,2,12,8,22,
+QUIZDanielAvila,da.avila,2,10,8,20,pot[2:]-pot[:-2]/(2*h_x) != (pot[2:]-pot[:-2])/(2*h_x)
+QUIZCamiloDeLaHoz,ec.de10,2,8,8,18,"Poten = potencial[:,1], h=(b-a)/(m-1)"
+QUIZDiegoGomez,df.gomez11,2,12,8,22,
+QUIZDavidQuiroga,de.quiroga,2,6,8,16,"f[1:] - f[:-1] es forward, V[0,-1] debe ser V[1:]"

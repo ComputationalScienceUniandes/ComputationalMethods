@@ -1,0 +1,18 @@
+Name,User,Initial (2),Campo (12),Integral (8),Total,Comments
+JuanVillalobos,jd.villalobos10,0,0,0,0,Tarea != Quiz. Extrafiles: Cargas.py err_integral.pdf Integral.py num_integral.pdf cargas.pdf
+QUIZGermanOsorio,ge.osorio10,2,10,6,18,"E = -dv/dr. Su x esta entre 0 y 1, debe ser 0 a pi"
+QUIZDiegoRodriguez,da.rodriguez21,2,0,6,8,"Identación errónea en el return de montecarlo, nunca itera 20 veces."
+QUIZDianaLozano,dc.lozano10,2,8,6,16,"Se sobreescribe E sin agregar el valor a la lista, falta dividir por h. lista = np.append(lista, integral)"
+QUIZSantiagoCaro,s.caro11,2,12,8,22,
+QUIZFelixCastro,fr.castro10,2,4,0,6,"H = potenciales[1,0] – potenciales[0,0], for i in potenciales[j,1], 1/2*h != 1/(2*h), v[i, 0]"
+QUIZGustavoArdila,ga.ardila10,2,6,8,16,"pot[i]-pot[i-1]/(2*h) != (pot[i]-pot[i-1])/(2*h), pot[i] – pot[i-1] es backward. "
+QUIZJohanaBarrera,ja.barrera10,2,10,8,20,E = -dv/dr
+QUIZDiegoTorres,da.torres15,2,8,4,14,"Usar esquema discreto debe evaluar en i+1, i-1 etc. for i in function(x) esta mal, falta return en veces_20"
+QUIZda.pabon10,da.pabon10,0,12,8,20,
+QUIZAlejandraArias,ma.arias11,0,8,2,10,"extrafiles: campo.pdf. Potencial y r estan al contrario, con datos discretos no se puede evaluar en [i +- h]."
+QUIZKarollYomayuza,kv.herrera10,0,8,6,14,extrafiles: carga.py. La función derivada se debe evaluar en v. 1/(2*h). Falta multiplicar por la base en la integral
+QUIZSarahArias,sc.arias,2,12,4,18,"random.random(np.pi) != random.random()*np.pi, falta multiplicar por la base"
+QUIZSantiagoSalazar,s.salazar12,2,12,4,18,"count/n, en los range debe ser sin el -1"
+QUIZNatalyPulido,n.pulido200,2,10,8,20,falta V[i+1] para central.
+QUIZAndresSilva,ae.silva10,2,12,8,22,
+QUIZAndreaMaldonado,ya.maldonado10,2,2,8,12,incompleto
