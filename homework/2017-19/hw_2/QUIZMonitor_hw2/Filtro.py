@@ -7,6 +7,12 @@ rate, data = read("violin.wav")
 fft = np.fft.rfft(data)
 freq = np.fft.rfftfreq(len(data), 1/rate)
 
+fig = plt.figure()
+
+plt.plot(freq, abs(fft))
+plt.ylabel("$|\mathcal{F}|$")
+plt.xlabel("Frequency (Hz)")
+fig.savefig("Violin.pdf")
 def bandpass(data, freq, f0 = 1e3, f1 = 2e3):
     fft = data.copy()
     pos = (freq > f0) & (freq < f1)

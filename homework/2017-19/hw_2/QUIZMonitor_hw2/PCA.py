@@ -10,7 +10,7 @@ for i in range(data.shape[0]):
 cov = np.cov(normed)
 values, vectors = np.linalg.eig(cov)
 
-pos = values.argsort()
+pos = values.argsort()[::-1]
 values = values[pos]
 vectors = vectors[:, pos]
 
