@@ -1,0 +1,13 @@
+Name,User,Initial (2),Fourier (9),PCA (9),Total,Comments
+QUIZJuanPerez,js.perez20,2,9,5,16,P2. Falta gráfica
+QUIZJulioRojas,jc.rojas29,2,9,9,20,
+QUIZJuanMelendez,js.melendez,,,,0,
+QUIZJuanFCabrera,jf.cabrera,2,9,9,20,
+QUIZSantiagoBarreto,s.barreto10,2,5,7,14,"P1.  No se deben eliminar datos, solo hacer 0 amplitudes no frequencias P2. redot=np.dot(dot, datos) no es la nueva base"
+QUIZCarolBarrera,cv.barrera10,2,9,9,20,
+QUIZSebastianDuran,js.duran11,2,9,9,20,
+QUIZDanielAvila,da.avila,2,9,9,20,
+QUIZCamiloDeLaHoz,ec.de10,2,9,9,20,
+QUIZDiegoGomez,df.gomez11,2,9,9,20,
+QUIZDavidQuiroga,de.quiroga,2,9,9,20,
+QUIZJairoSaavedra,ja.saavedra10,2,9,7,18,"P2.  nuevos_datos=np.dot(nuevo_sistema, matrix) no es la nueva base"

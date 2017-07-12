@@ -1,0 +1,17 @@
+Name,User,Initial (10),PCA (35),Fourier (35),Total,Comments
+JairoSaavedra,ja.saavedra10,10,35,35,80,
+JuanFCabrera,jf.cabrera,10,35,35,80,P2. Falta +1 en el número de puntos de los linspace. + Inversa + rfreq
+DanielAvila,da.avila,10,35,35,80,+Inversa
+JulioRojas,jc.rojas29,10,25,30,65,P1. Lectura de datos. P2. Nombres de archivos wav
+SantiagoBarreto,s.barreto10,10,35,15,60,"P2. Deben haber frequencias positivas y negativas, labels, debe grabar la transformada inversa."
+CarolBarrera,cv.barrera10,10,35,30,75,P2. sin mostrar las gráficas
+CamiloDeLaHoz,ec.de10,5,20,25,50,"PCA != PAC. P1. Los datos están mal normalizados. P2. frec != freq en picos_maximo, sam_do debe ser entero igual que new_sr al grabar el wav "
+DavidQuiroga,de.quiroga,10,35,35,80,"P2. +Inversa, -los filtros deben ser independientes."
+SebastianDuran,js.duran11,10,35,35,80,
+DiegoGomez,df.gomez11,10,35,35,80,+fft
+JuanPerez,js.perez20,,,,0,
+JuanMelendez,js.melendez,10,25,35,70,"P1. La lectura de datos da lugar a nan, proyección incorrecta"
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,48,
