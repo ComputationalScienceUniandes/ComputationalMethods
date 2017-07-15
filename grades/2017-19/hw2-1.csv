@@ -15,5 +15,5 @@ NatalyPulido,n.pulido200,10,35,35,80,
 KarollYomayuza,kv.herrera10,10,30,20,60,P1. La gráfica no permite ver la agrupación. P2. Implementación de dft
 SarahArias,sc.arias,10,35,35,80,
 DianaLozano,dc.lozano10,10,35,20,65,"P2. se calculan la mitad de los coeficientes dft, no es necesario cambiar el sampleo, labels"
-FelixCastro,fr.castro10,10,30,30,70,"P1. ""y el segundo componente principal es:"", vectores[:,0]. P2. Pasabajos() debe hacer 0 las amplitudes para las cuales la frecuencia es > 1000"
+FelixCastro,fr.castro10,10,35,35,80,"P1. ""y el segundo componente principal es:"", vectores[:,0]. P2. Pasabajos() debe hacer 0 las amplitudes para las cuales la frecuencia es > 1000"
 JohanaBarrera,ja.barrera10,10,35,35,80,
