@@ -9,7 +9,7 @@ Resultados_hw3.pdf : Resultados_hw3.tex $(WAVE) $(PLANETS)
 $(WAVE) : Onda.py
 	python $<
 
-$(PLANETS) : *.dat
+$(PLANETS) : *.dat Plots_Planetas
 	python Plots_Planetas.py
 
 *.dat : a.out
