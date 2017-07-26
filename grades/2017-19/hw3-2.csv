@@ -1,0 +1,13 @@
+Name,User,Github (5),Onda (30),Planetas.c (25),Plots_Planetas.py (5),Make (15),Total,Comments
+JairoSaavedra,ja.saavedra10,0,30,25,5,10,70,"GitHub. *** No rule to make target 'Resultados_hw3.tex', needed by 'Resultados_hw3.pdf'.  Stop."
+JuanFCabrera,jf.cabrera,5,25,25,10,15,80,'QuadMesh' object has no attribute 'set_title'. Multiples llamados a Onda.py
+DanielAvila,da.avila,5,30,25,10,15,85,Multiples llamados a Onda
+JulioRojas,jc.rojas29,5,30,15,3,15,68,Multiples llamados a Onda. No such file or directory: 'datr.txt'. Aceleración mal calculada -G y no se debe sumar sobre las distintas dimensiones
+SantiagoBarreto,s.barreto10,0,25,5,8,10,48,GitHub. La onda se propaga bien pero la visualización no es correcta. En la regla para plots planetas faltan los datos de planetas. G y masas no declaradas. Shorten no esta definido. Incompleto
+CarolBarrera,cv.barrera10,0,30,20,5,15,70,"GitHub. Multiples llamados a onda.py, se ejecutan varias acciones por regla. -G"
+CamiloDeLaHoz,ec.de10,5,25,15,5,10,60,"La información no se transfiere de forma correcta. No es una regla Plots_Planetas.py. No se debe sumar sobre factor, debe ser -G"
+DavidQuiroga,de.quiroga,0,30,25,10,15,80,"GitHub. Multiples llamados a onda.py, Plot_Planetas.py no es regla"
+SebastianDuran,js.duran11,5,30,25,5,15,80,Multiples llamados a Onda
+DiegoGomez,df.gomez11,5,30,25,10,15,85,Multiples llamados a Onda
+JuanPerez,js.perez20,0,30,25,7,10,72,Falta .tex. Planetas falta importar os
+JuanMelendez,js.melendez,0,0,15,5,0,20,Trayectorias erradas
