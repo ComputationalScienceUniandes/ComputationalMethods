@@ -115,9 +115,9 @@ planet *load_initial(void)
 void calc_acceleration(planet *planetas, int t)
 {
     int i, j; // indexs for planets
-    DOUBLE r, x, y, z, ratio; // temp variables
+    DOUBLE x, y, z, ratio; // temp variables
 
-    #pragma omp parallel for private(i, j, x, y, z, r, ratio)
+    #pragma omp parallel for private(i, j, x, y, z, ratio)
     for (i = 0; i < Np; i++)
     {
         // start with cero acceleration
