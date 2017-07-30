@@ -1,0 +1,13 @@
+Name,User,Github (10),C (45),Plots.py (10),Make (15),Total,Comments
+JairoSaavedra,ja.saavedra10,0,30,10,15,55,"GitHub. Resultados erróneos, cálculo de R"
+JuanFCabrera,jf.cabrera,10,45,10,5,70,Al volver a correr el makefile por segunda vez vuelve compilar.
+DanielAvila,da.avila,0,45,10,15,70,GitHub
+JulioRojas,jc.rojas29,10,45,10,15,80,
+SantiagoBarreto,s.barreto10,0,20,5,5,30,"GitHub. Tarea4.mk: No such file or directory. No rule to make target 'output.x', needed by 'radios.dat'. Múltiples errores en C. Python incompleto, figura volteada."
+CarolBarrera,cv.barrera10,10,45,10,15,80,
+CamiloDeLaHoz,ec.de10,10,35,10,15,70,Resultados erróneos
+DavidQuiroga,de.quiroga,10,45,10,5,70,Al volver a correr el makefile por segunda vez vuelve a general los datos.
+SebastianDuran,js.duran11,10,45,10,5,70,Al volver a correr el makefile por segunda vez vuelve compilar.
+DiegoGomez,df.gomez11,0,45,10,15,70,Sicua
+JuanPerez,js.perez20,0,45,10,15,70,GitHub
+JuanMelendez,js.melendez,0,35,5,0,40,GitHub. Sin makefile no es posible saber el proceso de manejo de datos. Los datos no son interpretados por Python.
