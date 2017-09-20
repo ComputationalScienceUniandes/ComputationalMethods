@@ -1,0 +1,27 @@
+Name,User,Inicial (10),MasaSol (30),Tolima (20),Integral (20),Total (80),Comments
+TatianaJAldana,tj.aldana10,10,30,10,20,70,"Tolima: Falta copiar PlotsTolima.py, DatosTolima.py != DatosTolima.dat, Labels"
+NicolasPena,n.pena14,,,,,,
+HugoVillalba,ha.villalba10,,,,,,
+MariaMarroquin,mp.marroquin10,10,25,15,20,70,"MasaSol: Unidades gráfica. Tolima: no se copian DatosTolima.dat ni PlotsTolima.py, la gráfica no se guarda"
+DanielRobayo,cd.robayo10,10,25,20,20,75,MasaSol: Unidades gráfica. 
+DiegoTorres,da.torres13,5,30,15,20,70,"Las carpetas son innecesarias. Tolima: Tolima/ != /Tolima, no copia los archivos, labels."
+MateoCotrino,ma.cotrino10,10,5,10,10,35,"Integral: multiples variables que no corresponden, trapezoide errado. MasaSol: reportlab, tittle, orbita.pdf, labels, ptl. Tolima: no copia los archivos, solo genera un archivo."
+JuanPrada,jd.prada11,5,25,20,15,65,Sin carpeta Tolima. Integral: trapezoide mal implementado. MasaSol: Marte errado.
+JohannRoa,js.roa10,10,30,20,20,80,
+VioletaRodriguez,vl.rodriguez10,5,25,15,20,65,"Integral.py != integral.py. MasaSol: Unidades gráfica, sin mostrar. Tolima: labels cruzados"
+NathaliaVera,ng.vera10,5,15,10,5,35,"Sin carpeta Tolima.  Integral: el código no funciona, múltiples errores de indentación, núnca se ejectuan las funciones, errores de sintaxis. MasaSol:  incompleto, faltan las gráficas e impresión de los valores, sintaxis. Tolima: La carpeta Tolima no se crea, no se ejecuta PlotsTolima.py gráficas."
+CarlosParamo,ca.paramo10,10,30,15,20,75,DatosMarzo1.txt != DatosMarzo.txt
+JhonVergel,js.vergel10,10,25,15,20,70,MasaSol: Unidades gráfica. Tolima: no se corre la rutina PlotsTolima.py.
+NayibMurillo,an.murillo10,,,,,,
+LuisPosada,lf.posada10,5,30,15,20,70,Las carpetas son innecesarias. Tolima: DatosTolima.py != DatosTolima.dat
+NicolasMaldonado,n.maldonado10,10,15,10,15,50,"Integral: trapezoide mal implementado, en montecarlo los números aleatorios no están en el rango. MasaSol: no hay derivación numérica, la gráfica no corresponde con órbitas. Tolima: múltiples errores en bash"
+DanielCastaneda,dd.castaneda10,,,,,,
+FelipeCamacho,f.camacho10,10,20,20,20,70,"MasaSol: Unidades gráfica, sin mostrar, en qué unidades está el tiempo. "
+RubenAcevedo,rl.acevedo10,5,25,15,20,65,"Integral.py != integral.py. MasaSol: Unidades gráfica, Grafica.pdf != Orbitas.pdf. Tolima: PlotsTolima.py != PlotsTolima.dat, ejes invertidos."
+DanielaMunoz,md.munoz11,10,25,20,15,70,"Integral: trapezoide mal implementado. MasaSol: valores errados, unidades gráfica."
+DavidReyes,da.reyes12,10,25,15,20,70,Tolima: ejes invertidos. MasaSol: unidades gráfica.
+DanielArdila,,,,,,,
+DanielLara,,,,,,,
+JuanSalamanca,,,,,,,
+OmarZapata,,,,,,,
+SilviaRueda,,,,,,,
