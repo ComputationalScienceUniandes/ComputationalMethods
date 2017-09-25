@@ -13,7 +13,7 @@ JuanNicolasSalazar,jn.salazar10,10,30,20,20,80,
 CamilaCortes,mc.cortes10,10,30,15,15,70,Integral: error en indentación del return trapezoide. Tolima: IndexError: too many indices for array
 RobinsonVillamil,ro.villamil10,,,,,-,Sin carpeta Tolima
 AlejandraAmado,ma.amado11,,,,,-,plotsTolima.py tolima.sh != PlotsTolima.py Tolima.sh. MasaSol: la gráfica no muestra la totalidad de los datos.
-davidbarbosa,de.barbosa10,0,0,0,0,0,Taller3
+DavidBarbosa,de.barbosa10,5,30,15,15,45,"-20 por entrega tarde. tolima.sh != Tolima.sh. Integral: get_ipython().magic('pylab inline'), trapezoide mal implementado. Tolima: no genera los datos correctamente errores en el .sh, Tolima != tolima, no guarda la figura."
 MarianaVillamil,mc.villamil10,5,25,20,20,70,"Integral.py != integral.py. MasaSol: Unidades de tiempo, unidades del plot."
 JulianMelendez,ja.melendez10,10,25,20,20,75,MasaSol: int' object is not iterable
 CastanoOmar,os.castano10,5,10,20,10,45,"MasaSol.py != masaSol.py. Integral: no ejecuta trapezoide, falta un segundo método. MasaSol: import matplotlib.pypimport matplotlib.pyplot as plt, 'infoMarte' is not defined, demasiados errores, los nombres de varias variables nunca coinciden: ‘infoMarte, infoTierra, xdt’."
