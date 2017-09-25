@@ -5,7 +5,7 @@ JuanPabloBarrero,jp.barrero10,5,25,15,20,65,"plotsTolima.py tolima.sh != PlotsTo
 AndresMartinez,a.martinez,,,,,-,"Integral.py != integral.py. MasaSol: Unidades de tiempo, unidades del plot."
 JuanCamiloBurgosFlorez,jc.burgos11,10,30,20,20,80,
 MarioCastano,ma.castano11,10,30,20,20,80,
-DavidVasquez,da.vasquez11,10,25,15,20,70,MasaSol: unidades del plot. Tolima: GRF_vs_EQ contiene filas con una sola columna. 
+DavidVasquez,da.vasquez11,10,25,20,20,75,MasaSol: unidades del plot. Tolima: GRF_vs_EQ contiene filas con una sola columna. 
 AngellySerje,af.serje10,,,,,-,Integral.py != integral.py. MasaSol: Valores errados para marte.
 AndreaNino,ap.nino10,10,25,20,20,75,MasaSol: labels gráfica. 
 NataliaLopezArango,n.lopez12,5,25,20,20,70,"Integral.py != integral.py, sin carpeta Tolima. MasaSol: unidades gráfica."
