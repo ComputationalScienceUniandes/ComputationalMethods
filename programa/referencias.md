@@ -1,5 +1,6 @@
 
-# References
+# Referencias principales
+
 * [**SciPy Reference Guide 0.15.1**, the Scipy team](http://docs.scipy.org/doc/scipy/scipy-ref-0.15.1.pdf)
 
 * [**Numpy Reference Guide 1.9.1**, the Numpy community](http://docs.scipy.org/doc/numpy/numpy-ref-1.9.1.pdf)
@@ -30,16 +31,18 @@
 
 * [**Software carpentry**](http://software-carpentry.org/)
 
-- [DST](http://datasciencetoolbox.org/)
-- [DST Command Line Tools](http://datascienceatthecommandline.com/#dst)
-- [ML for Hackers (R)](https://github.com/johnmyleswhite/ML_for_Hackers)
-- [Simmulated Annealing](http://toddwschneider.com/posts/traveling-salesman-with-simulated-annealing-r-and-shiny/#/)
-- [R packages](http://www.rstudio.com/products/rpackages/)
-- [Install R in Ubuntu](http://cran.r-project.org/bin/linux/ubuntu/README)
-- [Hands-on Data Science with R](http://onepager.togaware.com/)
-- [Tidy Data, by Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.html)
-- [Intro to DPLYR](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
-- [Tips to install R packages Ubuntu](http://dingo.ucsf.edu/twiki/bin/view/Cores/BioinformaticsCore/InstallingPackagesInR)
-- [Tips to install devtools](http://stackoverflow.com/questions/20923209/problems-installing-the-devtools-package)
+# Referencias secundarias
+
+* [DST](http://datasciencetoolbox.org/)
+* [DST Command Line Tools](http://datascienceatthecommandline.com/#dst)
+* [ML for Hackers (R)](https://github.com/johnmyleswhite/ML_for_Hackers)
+* [Simmulated Annealing](http://toddwschneider.com/posts/traveling-salesman-with-simulated-annealing-r-and-shiny/#/)
+* [R packages](http://www.rstudio.com/products/rpackages/)
+* [Install R in Ubuntu](http://cran.r-project.org/bin/linux/ubuntu/README)
+* [Hands-on Data Science with R](http://onepager.togaware.com/)
+* [Tidy Data, by Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.html)
+* [Intro to DPLYR](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
+* [Tips to install R packages Ubuntu](http://dingo.ucsf.edu/twiki/bin/view/Cores/BioinformaticsCore/InstallingPackagesInR)
+* [Tips to install devtools](http://stackoverflow.com/questions/20923209/problems-installing-the-devtools-package)
 
 
