@@ -1,9 +1,13 @@
 #  UNIX & Emacs: Controlling the Machine
 
-If you are taking this course probably this is your first time confronted to com- puters using operative systems other than Windows or MAC. Probably you don’t have enough working experience to recognize the meaning the following words: Unix, Linux, Ubuntu, GNU. If you do, congratulations! this part of the course should be easier for you.
-UNIX1 is the name of a family of operating systems very common in aca- demic circles and high performance engineering. If you use a commercial email provider, you can be sure that the messages you received today were handled by computers under some flavor of UNIX. If you are thinking about going into the research path of astrophysics, high energy physics, earth sciences, compu- tational physics or theoretical chemistry (just to name a few) you are bound to make use of systems under UNIX. It could be either GNU/LINUX or MAC operating systems.
+If you are taking this course probably this is your first time confronted to computers using operative systems other than Windows or MAC. Probably you don’t have enough working experience to recognize the meaning the following words: Unix, Linux, Ubuntu, GNU. If you do, congratulations! this part of the course should be easier for you.
+
+[UNIX](https://es.wikipedia.org/wiki/Unix) is the name of a family of operating systems very common in aca- demic circles and high performance engineering. If you use a commercial email provider, you can be sure that the messages you received today were handled by computers under some flavor of UNIX. If you are thinking about going into the research path of astrophysics, high energy physics, earth sciences, compu- tational physics or theoretical chemistry (just to name a few) you are bound to make use of systems under UNIX. It could be either GNU/LINUX or MAC operating systems.
+
 The purpose of this document is to give you a starting point and get you working as soon as possible in UNIX systems.
-1.1 The Console
+
+## The Console
+
 In UNIX environments you have to learn to control the machine. This can be done with text. That actually means typing text that can be understood by the machine.
 The Terminal is the place to do that. Type text and feed it into the machine. As a result you might get it to do what you need.
 Let’s assume for a moment that you have logged on and have a terminal open. There must be a cursor showing the place where the text will be written. It looks like this:
@@ -13,10 +17,15 @@ forero@compufis:~>
 ```
 
 Now write the following existential text and hit the return key
+```
 forero@compufis:~>whoami
+```
+
 The terminal will reply back to you by telling you the username you have. If its different from your username it means that you are logged into somebody else’s account. In my case I get in the terminal:
+```
 forero
 forero@compufis:~>
+```
 1Wikipedia says: Unix (officially trademarked as UNIX, sometimes also written as Ux in small caps) is a multitasking, multi-user computer operating system originally developed in 1969 by a group of AT&T employees at Bell Labs, including Ken Thompson, Dennis Ritchie, Brian Kernighan, Douglas McIlroy, Michael Lesk and Joe Ossanna.
 1
  
