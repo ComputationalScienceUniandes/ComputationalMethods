@@ -26,21 +26,21 @@ The terminal will reply back to you by telling you the username you have. If its
 forero
 forero@compufis:~>
 ```
-1Wikipedia says: Unix (officially trademarked as UNIX, sometimes also written as Ux in small caps) is a multitasking, multi-user computer operating system originally developed in 1969 by a group of AT&T employees at Bell Labs, including Ken Thompson, Dennis Ritchie, Brian Kernighan, Douglas McIlroy, Michael Lesk and Joe Ossanna.
-1
- 
+
 and the terminal is ready to accept more commands.
-This is a summary of the commands you will find yourself using most of
-the time. Each command includes a brief explanation of its meaning and some useful options to that command. To fully understand them you have to explore by yourself.
-Directories
-• pwd: present working directory
-• ls: list directory contents. ls -l shows ownership and size of each file.
-• mkdir dirname: create a new directory dirname
-• cd dirname: change your directory to dirname.
-• rmdir dirname: remove the directory dirname. The directory has to be empty. Use rmdir -r dirname to recursively remove dirname.
-Files
-• touch file.txt: changes the timestamp in file.txt. If file.txt doesn’t exist, it will create it.
-• mv file1.txt file2.txt: renames file1.txt as file2.txt. It will overwrite file2.txt, if it already existed.
+
+This is a summary of the commands you will find yourself using most of the time. Each command includes a brief explanation of its meaning and some useful options to that command. To fully understand them you have to explore by yourself.
+
+### Directories
+* `pwd`: present working directory
+* `ls`: list directory contents. ls -l shows ownership and size of each file.
+* `mkdir dirname`: create a new directory dirname
+* `cd dirname`: change your directory to dirname.
+* `rmdir dirname`: remove the directory dirname. The directory has to be empty. Use rmdir -r dirname to recursively remove dirname.
+
+### Files
+• `touch file.txt`: changes the timestamp in file.txt. If file.txt doesn’t exist, it will create it.
+• `mv file1.txt file2.txt`: renames file1.txt as file2.txt. It will overwrite file2.txt, if it already existed.
 • mv file.txt dirname: moves file.txt into dirname.
 • cp file.txt file2.txt: copies the contents file.txt into file2.txt.
 It will overwrite file2.txt, if it already existed.
