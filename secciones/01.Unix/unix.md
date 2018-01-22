@@ -33,17 +33,16 @@ This is a summary of the commands you will find yourself using most of the time.
 
 ### Directories
 * `pwd`: present working directory
-* `ls`: list directory contents. ls -l shows ownership and size of each file.
+* `ls`: list directory contents. `ls -l` shows ownership and size of each file.
 * `mkdir dirname`: create a new directory dirname
 * `cd dirname`: change your directory to dirname.
 * `rmdir dirname`: remove the directory dirname. The directory has to be empty. Use rmdir -r dirname to recursively remove dirname.
 
 ### Files
-• `touch file.txt`: changes the timestamp in file.txt. If file.txt doesn’t exist, it will create it.
-• `mv file1.txt file2.txt`: renames file1.txt as file2.txt. It will overwrite file2.txt, if it already existed.
-• mv file.txt dirname: moves file.txt into dirname.
-• cp file.txt file2.txt: copies the contents file.txt into file2.txt.
-It will overwrite file2.txt, if it already existed.
+* `touch file.txt`: changes the timestamp in file.txt. If file.txt doesn’t exist, it will create it.
+* `mv file1.txt file2.txt`: renames file1.txt as file2.txt. It will overwrite file2.txt, if it already existed.
+* `mv file.txt dirname/`: moves file.txt into dirname.
+* `cp file.txt file2.txt`: copies the contents file.txt into file2.txt. It will overwrite file2.txt, if it already existed.
 • rm file.txt: deletes file.txt
 • tar -cvf compressed.tar files: used to compress the files into compressed.tar
 • tar -xvf compressed.tar: used to expand the file compressed.tar.
