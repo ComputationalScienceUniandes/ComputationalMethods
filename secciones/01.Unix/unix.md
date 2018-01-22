@@ -76,7 +76,7 @@ These commands are even more useful when you use wildcards.
 
 * `>` Connects a command to a file. Redirects the output of the command on the left to the file on the right. This overwrites the contents in the file
 * `>>` Same as the previous command with the difference that the output is appended at the bottom of the file.
-* | The Pipe. Connects two commands. Redirects the flux of characters to feed other commands.
+* `|` The Pipe. Connects two commands. Redirects the flux of characters to feed other commands.
 
 ### External world
 * `ssh machinename`: connects to another machine.
