@@ -7,7 +7,11 @@ The purpose of this document is to give you a starting point and get you working
 In UNIX environments you have to learn to control the machine. This can be done with text. That actually means typing text that can be understood by the machine.
 The Terminal is the place to do that. Type text and feed it into the machine. As a result you might get it to do what you need.
 Let’s assume for a moment that you have logged on and have a terminal open. There must be a cursor showing the place where the text will be written. It looks like this:
+
+```
 forero@compufis:~>
+```
+
 Now write the following existential text and hit the return key
 forero@compufis:~>whoami
 The terminal will reply back to you by telling you the username you have. If its different from your username it means that you are logged into somebody else’s account. In my case I get in the terminal:
