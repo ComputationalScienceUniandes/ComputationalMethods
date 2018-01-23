@@ -74,9 +74,71 @@ Otras funciones
 
 ### Listas
 
-### Diccionarios
+Uno de los tipos de estructuras más útiles en python son las listas.
+Hay dos maneras de inicializar una lista
+
+La primera crea una lista vacía y añada los elementos uno por uno
+```python
+>>> a = list()
+>>> type(a)
+<class 'list'>
+>>> a.append(1)
+>>> a.append(3)
+>>> a.append("gato")
+>>> a
+[1, 3, 'gato']
+```
+
+La segunda inicializa todos los elementos 
+>>> a = [1,3,'gato']
+>>> a
+[1, 3, 'gato']
+
+De una lista podemos conocer su longitud
+
+```python
+>>> len(a)
+3
+```
+
+Podemos extraer elementos uno a uno teniendo en cuenta que los índices empiezan en cero 
+```python
+>>> a[0], a[1], a[2]
+(1, 3, 'gato')
+>>> a[0]
+1
+>>> a[1]
+3
+>>> a[2]
+'gato'
+```
+
+Y viendo que índices negativos también son posibles.
+```python
+>>> a[-1]
+'gato'
+>>> a[-2]
+3
+>>> a[-3]
+1
+```
+
+```python
 
 ```
+```python
+
+```
+```python
+
+```
+```python
+
+```
+
+### Diccionarios
+
+```python
 
 ```
 
