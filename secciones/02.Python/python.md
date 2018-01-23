@@ -13,12 +13,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 De ahora en adelante el símbolo `>>>` indica al intérprete de python listo par recibir instruccines. Después de cada instrucción el intérprete muestra el resultado. Por ejemplo.
 
-```
+```python
 >>> 1
 1
 ```
 
-```
+```python
 >>> 1+1
 2
 ```
@@ -27,7 +27,7 @@ De ahora en adelante el símbolo `>>>` indica al intérprete de python listo par
 
 No es necesario declarar el tipo de variable antes de utilizarlas; es suficiente con inicializarlas. Las tipos de variables más comunes son las siguientes:
 
-```
+```python
 >>> a=1
 >>> b=10.0
 >>> c="computo"
@@ -43,7 +43,7 @@ No es necesario declarar el tipo de variable antes de utilizarlas; es suficiente
 
 Las operaciones básicas de aritmética están disponibles
 
-```
+```python
 >>> a=1.0
 >>> b=3.0
 >>> c=10.0
