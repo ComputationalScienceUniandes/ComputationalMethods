@@ -23,7 +23,7 @@ De ahora en adelante el símbolo `>>>` indica al intérprete de python listo par
 2
 ```
 
-### Variables
+## 2.1 Variables
 
 No es necesario declarar el tipo de variable antes de utilizarlas; es suficiente con inicializarlas. Las tipos de variables más comunes son las siguientes:
 
@@ -39,7 +39,7 @@ No es necesario declarar el tipo de variable antes de utilizarlas; es suficiente
 <class 'str'>
 ```
 
-### Aritmética
+## 2.2 Aritmética
 
 Las operaciones básicas de aritmética están disponibles
 
@@ -72,7 +72,7 @@ Funciones especiales como raíz cuadrada o logaritmos deben utilizarse de la sig
 
 Otras funciones
 
-### Listas
+## 2.3 Listas
 
 Uno de los tipos de estructuras más útiles en python son las listas.
 Hay dos maneras de inicializar una lista
@@ -161,14 +161,8 @@ Es posible sacar "tajadas" de una lista (slicing en inglés)
 'd '
 ```
 
-```python
 
-```
-```python
-
-```
-
-### Diccionarios
+## 2.4 Diccionarios
 
 Los diccionarios son otra estructura poderosa de python. 
 Al igual que las listas hay dos maneras de inicializarlos.
