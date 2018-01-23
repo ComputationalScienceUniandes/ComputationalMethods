@@ -126,6 +126,14 @@ y viendo que índices negativos también son posibles.
 1
 ```
 
+Así podemos quitar elementos de la lista
+
+```python
+>>> del a[1]
+>>> a
+[1, 'gato']
+```
+
 Las cadenas de caracteres también son listas
 
 ```python
@@ -162,9 +170,58 @@ Es posible sacar "tajadas" de una lista (slicing en inglés)
 
 ### Diccionarios
 
-```python
+Los diccionarios son otra estructura poderosa de python. 
+Al igual que las listas hay dos maneras de inicializarlos.
 
+
+La primera crea un diccionario vacío y luego añade los elementos
+```python
+>>> d[1] = "enero"
+>>> d[12] = "diciembre"
+>>> d[3] = "marzo"
+>>> d
+{1: 'enero', 12: 'diciembre', 3: 'marzo'}
 ```
 
+La segunda inicializa todos los elementos
+```python
+>>> d = {1: 'enero', 12: 'diciembre', 3: 'marzo'}
+>>> d
+{1: 'enero', 12: 'diciembre', 3: 'marzo'}
+```
+
+En ambos casos estamos listos para usar el diccionario
+```python
+>>> d[1]
+'enero'
+>>> d[12]
+'diciembre'
+>>> d[3]
+'marzo'
+```
+
+Así podemos quitar elementos del diccionario
+```python
+>>> del d[3]
+>>> d
+{1: 'enero', 12: 'diciembre'}
+```
+
+
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
 
 
