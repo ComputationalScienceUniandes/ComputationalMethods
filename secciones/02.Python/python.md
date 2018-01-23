@@ -223,4 +223,69 @@ Los valores de la izquierda se conocen como `keys` y los valores de la derecha c
 ['enero', 'diciembre', 'marzo']
 ```
 
+## 2.5 Iteración
 
+La construcción `for` se puede utilizar para hacer iteraciones de la siguiente manera
+
+
+```python
+>>> for i in range(5):
+...     print(i)
+... 
+0
+1
+2
+3
+4
+```
+
+```python
+>>> palabra = "Universidad"
+>>> for letra in palabra:
+...     print(letra)
+... 
+U
+n
+i
+v
+e
+r
+s
+i
+d
+a
+d
+```
+
+```python
+>>> zoo = ['tigre', 'loro', 'elefante', 'jirafa']
+>>> for animal in zoo:
+...     print(animal)
+... 
+tigre
+loro
+elefante
+jirafa
+```
+
+```python
+>>> d = {1: 'enero', 12: 'diciembre', 3: 'marzo'}
+>>> for k in list(d.keys()):
+...     print(k)
+... 
+1
+12
+3
+>>> for v in list(d.values()):
+...     print(v)
+... 
+enero
+diciembre
+marzo
+>>> for k in list(d.keys()):
+...     print(d[k])
+... 
+enero
+diciembre
+marzo
+```
