@@ -207,21 +207,13 @@ Así podemos quitar elementos del diccionario
 {1: 'enero', 12: 'diciembre'}
 ```
 
-
-
-```python
-```
+Los valores de la izquierda se conocen como `keys` y los valores de la derecha como `values`. Podemos sacarlos en forma de lista de la siguiente manera:
 
 ```python
-```
-
-```python
-```
-
-```python
-```
-
-```python
+>>> list(d.keys())
+[1, 12, 3]
+>>> list(d.values())
+['enero', 'diciembre', 'marzo']
 ```
 
 
