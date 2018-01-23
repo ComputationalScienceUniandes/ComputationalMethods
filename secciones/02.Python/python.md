@@ -90,18 +90,21 @@ La primera crea una lista vacía y añada los elementos uno por uno
 ```
 
 La segunda inicializa todos los elementos 
+```python
 >>> a = [1,3,'gato']
 >>> a
 [1, 3, 'gato']
+```
 
 De una lista podemos conocer su longitud
 
 ```python
 >>> len(a)
 3
+
 ```
 
-Podemos extraer elementos uno a uno teniendo en cuenta que los índices empiezan en cero 
+Podemos extraer elementos uno a uno teniendo en cuenta que los índices empiezan en cero,
 ```python
 >>> a[0], a[1], a[2]
 (1, 3, 'gato')
@@ -113,7 +116,7 @@ Podemos extraer elementos uno a uno teniendo en cuenta que los índices empiezan
 'gato'
 ```
 
-Y viendo que índices negativos también son posibles.
+y viendo que índices negativos también son posibles.
 ```python
 >>> a[-1]
 'gato'
@@ -123,12 +126,33 @@ Y viendo que índices negativos también son posibles.
 1
 ```
 
-```python
+Las cadenas de caracteres también son listas
 
-```
 ```python
-
+>>> p = "Universidad de los Andes"
+>>> p[0]
+'U'
+>>> p[-1]
+'s'
+>>> len(p)
+24
 ```
+
+Es posible sacar "tajadas" de una lista (slicing en inglés)
+
+```python
+>>> p[0:4]
+'Univ'
+>>> p[-4:]
+'ndes'
+>>> p[0:]
+'Universidad de los Andes'
+>>> p[:]
+'Universidad de los Andes'
+>>> p[10:12]
+'d '
+```
+
 ```python
 
 ```
