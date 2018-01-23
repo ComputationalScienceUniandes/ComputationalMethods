@@ -57,7 +57,7 @@ Las operaciones básicas de aritmética están disponibles
 
 Funciones especiales como raíz cuadrada o logaritmos deben utilizarse de la siguiente manera
 
-```
+```python
 >>> import math
 >>> math.log10(c)
 1.0
