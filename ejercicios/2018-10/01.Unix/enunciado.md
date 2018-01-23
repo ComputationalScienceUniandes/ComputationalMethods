@@ -2,7 +2,7 @@ Escriba los comandos para:
 
 1. Crear el directorio `mi_usuario/ejercicios/01.Unix' en su directorio `home`.
 ```
-mkdir -p 
+mkdir -p mi_usuario/ejercicios/01.Unix
 ```
    
 2. Bajar los archivos `calificaciones.dat` y `enunciado.md` a el directorio que acaba de crear.
@@ -24,6 +24,10 @@ wc -l calificaciones.dat #en realidad da el número de estudiantes más uno.
 
 
 4. Calcular las notas definitivas por cada estudiante.
+
+```
+awk < calificaciones.dat '{print $1*0.2 + $2*0.2 + $3*0.25 + $4*0.35}'
+```
 
 5. Guardar las notas definitivas en un archivo llamado `definitivas.dat`
 
