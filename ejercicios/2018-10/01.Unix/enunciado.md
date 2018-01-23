@@ -1,14 +1,27 @@
 Escriba los comandos para: 
 
 1. Crear el directorio `mi_usuario/ejercicios/01.Unix' en su directorio `home`.
+```
+mkdir -p 
+```
    
 2. Bajar los archivos `calificaciones.dat` y `enunciado.md` a el directorio que acaba de crear.
+```
+cd mi_usuario/ejercicios/01.Unix
+wget https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionales/master/ejercicios/2018-10/01.Unix/calificaciones.dat
+wget https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionales/master/ejercicios/2018-10/01.Unix/enunciado.md
+```
 
 Las columnas de `calificaciones.dat` corresponden de ese archivo corresponden a cuatro calificaciones de los estudiantes de un curso. El porcentaje se indica en el encabezado.
 
 Escriba los comandos para:
 
 3. Encontrar el numero total de estudiantes en el curso.
+
+```
+wc -l calificaciones.dat #en realidad da el número de estudiantes más uno.
+```
+
 
 4. Calcular las notas definitivas por cada estudiante.
 
