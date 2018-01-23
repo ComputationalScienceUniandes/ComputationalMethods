@@ -23,6 +23,19 @@ De ahora en adelante el símbolo `>>>` indica al intérprete de python listo par
 2
 ```
 
+para imprimir algo podemos utilizar `print`
+
+```python
+>>> print("Hola Mundo!")
+Hola Mundo!
+>>> b="Hola Mundo!"
+>>> print(b)
+Hola Mundo!
+>>> a=1
+>>> print(a)
+1
+```
+
 ## 2.1 Variables
 
 No es necesario declarar el tipo de variable antes de utilizarlas; es suficiente con inicializarlas. Las tipos de variables más comunes son las siguientes:
