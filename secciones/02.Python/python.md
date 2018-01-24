@@ -176,11 +176,32 @@ Es posible sacar "tajadas" de una lista (slicing en inglés)
 'd '
 ```
 
+Una función util para crear listas de enteros es `range()`
+
+```python
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+```python
+>>> list(range(5,10))
+[5, 6, 7, 8, 9]
+>>> 
+```
+```python
+>>> list(range(1,10,3))
+[1, 4, 7]
+>>> 
+```
+
 ### Pregunta
 
-Habiendo definido `p = "Universidad de los Andes"`, escriba las líneas de código para que el intérprete devuelva
-* `Universidad`
-* `Andes`
+* Después de definir `p = "Universidad de los Andes"`, escriba las líneas de código para que el intérprete devuelva
+  * `Universidad`
+  * `Andes`
+
+* Utilizando la función `range()`, escriba las líneas de código necesarias para crear una lista con los primeros 5 múltiplos de 3.
+
 
 
 ## 2.4 Diccionarios
