@@ -83,7 +83,9 @@ Funciones especiales como raíz cuadrada o logaritmos deben utilizarse de la sig
 
 ```
 
-Otras funciones
+### Pregunta
+
+* Escriba en el intérprete una línea de código que calcule el volumen de una esfera de radio `r`.
 
 ## 2.3 Listas
 
@@ -174,6 +176,12 @@ Es posible sacar "tajadas" de una lista (slicing en inglés)
 'd '
 ```
 
+### Pregunta
+
+Habiendo definido `p = "Universidad de los Andes"`, escriba las líneas de código para que el intérprete devuelva
+* `Universidad`
+* `Andes`
+
 
 ## 2.4 Diccionarios
 
@@ -222,6 +230,12 @@ Los valores de la izquierda se conocen como `keys` y los valores de la derecha c
 >>> list(d.values())
 ['enero', 'diciembre', 'marzo']
 ```
+
+### Pregunta
+
+Habiendo definido `d = {1: 'enero', 12: 'diciembre', 3: 'marzo'}`, escriba las líneas de código para 
+* Añadir entradas para `abril` y `mayo`.
+* Borrar la entrada del mes de `enero`.
 
 ## 2.5 Iteración
 
@@ -289,3 +303,8 @@ enero
 diciembre
 marzo
 ```
+
+### Pregunta
+
+Habiendo definido `nombres = ['enero', 'febrero', 'marzo', 'abril', 'mayo']`, escriba las líneas de código necesarias
+* crear el diccionario `d = {1:'enero', 2:'febrero', 3:'marzo', 4:'abril', 5:'mayo'}` usando un bucle `for`.
