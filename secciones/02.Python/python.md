@@ -212,6 +212,7 @@ Al igual que las listas hay dos maneras de inicializarlos.
 
 La primera crea un diccionario vacío y luego añade los elementos
 ```python
+>>> d = dict()
 >>> d[1] = "enero"
 >>> d[12] = "diciembre"
 >>> d[3] = "marzo"
