@@ -58,5 +58,5 @@ Escriba las líneas de código de python para hacer las siguientes tareas
 >>> for i in range(2,n+1):
 ...     fibo.append(fibo[i-2]+fibo[i-1])
 ... 
->>> print(fibo)
+>>> print(fibo[1:])
 ```
