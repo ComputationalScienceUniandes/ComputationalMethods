@@ -329,3 +329,9 @@ marzo
 ### Pregunta
 
 Habiendo definido `nombres = ['enero', 'febrero', 'marzo', 'abril', 'mayo']`, escriba las líneas de código necesarias para crear el diccionario `d = {1:'enero', 2:'febrero', 3:'marzo', 4:'abril', 5:'mayo'}` usando un bucle `for`.
+
+## 2.6 Control de flujo
+
+## 2.7 Funciones
+
+## 2.8 Objetos
