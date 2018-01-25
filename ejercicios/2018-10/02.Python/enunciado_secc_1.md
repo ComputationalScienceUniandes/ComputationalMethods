@@ -10,6 +10,11 @@ Escriba las líneas de código de python para hacer las siguientes tareas
 2. Imprimir una cuenta regresiva del 10 hasta el 0.
 
 ```python
+>>> for i in range(11):
+...     print(10-i)
+```
+
+```python
 >>> for i in range(10,-1,-1):
 ...     print(i)
 ```
