@@ -424,7 +424,7 @@ def palabras(a):
 ```
 
 ### Pregunta 
-Después de definir la función `palabra`. Qué resultado espera con `palabra(4)`?
+* Después de definir la función `palabra`. Qué resultado espera con `palabra(4)`?
 
 
 También existe la posibilidad de definir valores de entrada de parámetros 
@@ -437,21 +437,65 @@ def multiplica(a, b=5, c=7):
 En este caso si no hay valores de entrada se toman los valores en la definición de la función.
 
 ### Pregunta
-Cuál es el resultado de `multiplica(2)`, `multiplica(2,3)`, `multiplica(2,3,8)`?
+* Cuál es el resultado de `multiplica(2)`, `multiplica(2,3)`, `multiplica(2,3,8)`?
 
 ## 2.8 Objetos
+
+
+Los objetos sirven como contenedores de variables y funciones aplicables al mismo objeto.
+
+Esta es la definición de un objeto de la clase rectángulo.
+```python
+class rectangulo():
+    def __init__(self, a=1.0, b=2.0):
+        self.a = a
+        self.b = b
+        self.__area = a*b
+    def set_area(self):
+        self.__area = self.a * self.b
+    def print_object(self):
+        print("a", self.a)
+        print("b", self.b)
+        print("area", self.__area)
+```
+
+Para crear el objeto podemos escribir
+
+```python
+A = rectangulo()
+```
+
+### Pregunta
+* Cual va a ser el resultado luego de la siguiente secuencia?
+
+```python
+A = rectangulo()
+A.print_object()
+
+A.a = 5.0
+A.print_object()
+
+A.__area = 18.0
+A.print_object()
+
+A.set_area()
+A.print_object()
+```
+
 
 
 ```python
 import random
 class Walk:
-    def __init__(self, n_points=10000, step=1.0, pos_init=0):
+   #funcion necesario para la creacion del objeto. 
+   def __init__(self, n_points=10000, step=1.0, pos_init=0):
         self.n_points = n_points
-        self.pos = range(n_points)
-        self.time = range(n_points)
+        self.pos = list(range(n_points))
+        self.time = list(range(n_points))
         self.step = step
         self.pos[0] = pos_init
 
+    #funcion para crear una marcha aleatoria
     def run(self):
         for i in range(1,self.n_points):
             r = random.random()
@@ -462,7 +506,8 @@ class Walk:
 
             self.pos[i] = self.pos[i-1] + step
             self.time[i] = self.time[i-1] + self.step
-
+            
+    #function para escribir los contenidos de la listas time y pos
     def writetxt(self, filename='walk.txt'):
         f = open(filename, 'w')
         for i in range(self.n_points):
