@@ -332,8 +332,7 @@ Habiendo definido `nombres = ['enero', 'febrero', 'marzo', 'abril', 'mayo']`, es
 
 ## 2.6 Control de flujo
 
-En esta sección vamos a aprender cómo controlar el flujo
-del programa con `if`, `else`, `elif` y `while`.
+El flujo del programa se puede controlar con programas `if`, `else`, `elif` y `while`.
 
 
 ```python
@@ -357,7 +356,9 @@ if(a>b):
     print('a>b: a=', a, ',b=', b)
 else:
     print('a<=b, a=', a, ',b=', b)
+```
 
+```python
 
 #simple example of if-elif-else
 month='July'
@@ -372,7 +373,9 @@ print(month, 'corresponds to month_number', month_number)
 
 if(month_number==-1):
     print('That means that I don\'t have', month, 'in my list')
+```
 
+```python
 #simple example of while statement
 
 print('Countdown starts')
@@ -381,9 +384,59 @@ while n > 0:
     print(n)
     n = n-1
 print('Blastoff!')
-
+```
 
 
 ## 2.7 Funciones
 
+```python
+
+#How to define a function
+
+#Here is a function that doesn't return any value
+def print_message(message):
+ print('I am here to tell you this:', message)
+
+#Here is a function that returns some number
+def volume(radius):
+ vol = (4.0/3.0) * 3.14159 * radius**3
+ return vol
+
+#now these two functions are used
+print_message('I will be back in 5 minutes')
+print(volume(5.0))
+```
+
+
+
+
 ## 2.8 Objetos
+
+
+```python
+import random
+class Walk:
+    def __init__(self, n_points=10000, step=1.0, pos_init=0):
+        self.n_points = n_points
+        self.pos = range(n_points)
+        self.time = range(n_points)
+        self.step = step
+        self.pos[0] = pos_init
+
+    def run(self):
+        for i in range(1,self.n_points):
+            r = random.random()
+            if(r<=0.5):
+                step = self.step;
+            else:
+                step = -self.step
+
+            self.pos[i] = self.pos[i-1] + step
+            self.time[i] = self.time[i-1] + self.step
+
+    def writetxt(self, filename='walk.txt'):
+        f = open(filename, 'w')
+        for i in range(self.n_points):
+            f.write('{} {}\n'.format(self.time[i], self.pos[i]))
+        f.close()
+```
