@@ -334,22 +334,21 @@ Habiendo definido `nombres = ['enero', 'febrero', 'marzo', 'abril', 'mayo']`, es
 
 El flujo del programa se puede controlar con programas `if`, `else`, `elif` y `while`.
 
-
 ```python
-#simple if statement and boolean variable
-value = True #boolean variable
+#if sencillo con variable booleana
+value = True #variable booleana
 if(value):
-    print('The boolean value was true')
+    print('La variable es verdades')
 ```
 
 El número cero es equivalente de `False`.
 ```python
 if(0):
-    print('This will never be printed to screen')
-```python
+    print('Esto nunca se va a imprimir')
+```
 
+Se puede incluir una variación con `else`
 ```python
-#simple example of if-else
 a = 10
 b = 4
 if(a>b):
@@ -358,56 +357,60 @@ else:
     print('a<=b, a=', a, ',b=', b)
 ```
 
+
+Para más de dos opciones se utiliza `elif`
+
 ```python
+numero = 2
 
-#simple example of if-elif-else
-month='July'
-
-if(month=='January'):
-    month_number=1
-elif(month=='February'):
-    month_number=2
+if(numero == 0):
+    print('Nada')
+elif(numero==1):
+    print('Algo')
 else:
-    month_number=-1
-print(month, 'corresponds to month_number', month_number)
-
-if(month_number==-1):
-    print('That means that I don\'t have', month, 'in my list')
+    print('Infinito')
 ```
 
-```python
-#simple example of while statement
+Finalmente, tenemos al `while` para un condicional que va cambiando a medida que se ejecuta el codigo
 
-print('Countdown starts')
+```python
+print('Cuenta Regresiva')
 n=10
 while n > 0:
     print(n)
     n = n-1
-print('Blastoff!')
+print('Despegue!')
 ```
 
+### Pregunta
+* Escriba el código necesario para contar el número de vocales en una cadena de caracteres.
 
 ## 2.7 Funciones
 
+
+
+Es posible crear una función que no tenga ningún parámetro de entrada y que no devuelva ningún valor.
+
 ```python
+def hola():
+ print('Hola')
+```
+ 
+También la podemos modificar para tomar de entrada un parámetro
+ 
+```python
+def hola(nombre):
+ print('Hola ', nombre)
+```
+Las funciones pueden devolver al menos un valor
 
-#How to define a function
-
-#Here is a function that doesn't return any value
-def print_message(message):
- print('I am here to tell you this:', message)
-
-#Here is a function that returns some number
+```python
 def volume(radius):
  vol = (4.0/3.0) * 3.14159 * radius**3
  return vol
-
-#now these two functions are used
-print_message('I will be back in 5 minutes')
-print(volume(5.0))
 ```
 
-Es posible crear funciones con varios parámetros de entrada
+También es posible crear funciones con varios parámetros de entrada
 
 ```python
 def multiplica(a, b, c):
@@ -423,21 +426,21 @@ def palabras(a):
     return a*n, a*m
 ```
 
-### Pregunta 
-* Después de definir la función `palabra`. Qué resultado espera con `palabra(4)`?
-
-
-También existe la posibilidad de definir valores de entrada de parámetros 
+También existe la posibilidad de definir valores de entrada de parámetros.
+En este caso si no hay valores de entrada se toman los valores en la definición de la función.
 
 ```python
 def multiplica(a, b=5, c=7):
     return a*b*c
 ```
 
-En este caso si no hay valores de entrada se toman los valores en la definición de la función.
+
+### Pregunta 
+* Cuál es resultado de `palabra(4)`?
 
 ### Pregunta
 * Cuál es el resultado de `multiplica(2)`, `multiplica(2,3)`, `multiplica(2,3,8)`?
+
 
 ## 2.8 Objetos
 
@@ -450,7 +453,7 @@ class rectangulo():
     def __init__(self, a=1.0, b=2.0):
         self.a = a
         self.b = b
-        self.__area = a*b
+        self.__area = a * b
     def set_area(self):
         self.__area = self.a * self.b
     def print_object(self):
@@ -466,7 +469,7 @@ A = rectangulo()
 ```
 
 ### Pregunta
-* Cual va a ser el resultado luego de la siguiente secuencia?
+* Cual va a ser el resultado luego de la siguiente secuencia? 
 
 ```python
 A = rectangulo()
@@ -482,35 +485,19 @@ A.set_area()
 A.print_object()
 ```
 
+### Pregunta
+
+* Cree una clase llamada `Libreta` para guardar nombres, apellidos y número de teléfono. La clase debe tener la capacidad de funcionar de la siguiente forma:
 
 
 ```python
-import random
-class Walk:
-   #funcion necesario para la creacion del objeto. 
-   def __init__(self, n_points=10000, step=1.0, pos_init=0):
-        self.n_points = n_points
-        self.pos = list(range(n_points))
-        self.time = list(range(n_points))
-        self.step = step
-        self.pos[0] = pos_init
+L = Libreta() # crea la libreta
+L.nueva_entrada("Diana Lucia", "Hernandez Perez", 876626) #incluye una nueva entrada
+L.nueva_entrada("Daniel", "Forero Hernandez", 2471425)
+L.nueva_entrada("Ana", "Diaz", 4068585)
+L.nueva_entrada("Pony", "Malta", 3449040)
+L.busca_apellido("Hernandez") #imprime todos las entradas con un "Hernandez" en el apellido
+L.borra_entrada("Diana Lucia", "Hernandez Perez") # Borra la entrada correspondiente
+L.imprime_todo() # imprime todos los regristros
 
-    #funcion para crear una marcha aleatoria
-    def run(self):
-        for i in range(1,self.n_points):
-            r = random.random()
-            if(r<=0.5):
-                step = self.step;
-            else:
-                step = -self.step
-
-            self.pos[i] = self.pos[i-1] + step
-            self.time[i] = self.time[i-1] + self.step
-            
-    #function para escribir los contenidos de la listas time y pos
-    def writetxt(self, filename='walk.txt'):
-        f = open(filename, 'w')
-        for i in range(self.n_points):
-            f.write('{} {}\n'.format(self.time[i], self.pos[i]))
-        f.close()
 ```
