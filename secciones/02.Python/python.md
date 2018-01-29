@@ -332,6 +332,58 @@ Habiendo definido `nombres = ['enero', 'febrero', 'marzo', 'abril', 'mayo']`, es
 
 ## 2.6 Control de flujo
 
+En esta sección vamos a aprender cómo controlar el flujo
+del programa con `if`, `else`, `elif` y `while`.
+
+
+```python
+#simple if statement and boolean variable
+value = True #boolean variable
+if(value):
+    print('The boolean value was true')
+```
+
+El número cero es equivalente de `False`.
+```python
+if(0):
+    print('This will never be printed to screen')
+```python
+
+```python
+#simple example of if-else
+a = 10
+b = 4
+if(a>b):
+    print('a>b: a=', a, ',b=', b)
+else:
+    print('a<=b, a=', a, ',b=', b)
+
+
+#simple example of if-elif-else
+month='July'
+
+if(month=='January'):
+    month_number=1
+elif(month=='February'):
+    month_number=2
+else:
+    month_number=-1
+print(month, 'corresponds to month_number', month_number)
+
+if(month_number==-1):
+    print('That means that I don\'t have', month, 'in my list')
+
+#simple example of while statement
+
+print('Countdown starts')
+n=10
+while n > 0:
+    print(n)
+    n = n-1
+print('Blastoff!')
+
+
+
 ## 2.7 Funciones
 
 ## 2.8 Objetos
