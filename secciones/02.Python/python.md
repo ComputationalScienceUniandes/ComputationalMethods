@@ -411,7 +411,7 @@ Es posible crear funciones con varios parámetros de entrada
 
 ```python
 def multiplica(a, b, c):
-    return (a*b*c)
+    return a*b*c
 ```
 
 Las funciones también pueden devolver varios valores
@@ -423,9 +423,21 @@ def palabras(a):
     return a*n, a*m
 ```
 
-Pregunta: 
+### Pregunta 
 Después de definir la función `palabra`. Qué resultado espera con `palabra(4)`?
 
+
+También existe la posibilidad de definir valores de entrada de parámetros 
+
+```python
+def multiplica(a, b=5, c=7):
+    return a*b*c
+```
+
+En este caso si no hay valores de entrada se toman los valores en la definición de la función.
+
+### Pregunta
+Cuál es el resultado de `multiplica(2)`, `multiplica(2,3)`, `multiplica(2,3,8)`?
 
 ## 2.8 Objetos
 
