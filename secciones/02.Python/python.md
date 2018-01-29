@@ -407,7 +407,24 @@ print_message('I will be back in 5 minutes')
 print(volume(5.0))
 ```
 
+Es posible crear funciones con varios parámetros de entrada
 
+```python
+def multiplica(a, b, c):
+    return (a*b*c)
+```
+
+Las funciones también pueden devolver varios valores
+
+```python
+def palabras(a):
+    m = ['Palabra']
+    n = ['Repetida']
+    return a*n, a*m
+```
+
+Pregunta: 
+Después de definir la función `palabra`. Qué resultado espera con `palabra(4)`?
 
 
 ## 2.8 Objetos
