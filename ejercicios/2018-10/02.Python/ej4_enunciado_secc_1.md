@@ -98,4 +98,5 @@ for i in range(2,200):
 plt.plot(n_gente, proba_coincide)
 plt.savefig('coincide_cumple.png')
 ```
+![coincide](coincide_cumple.png)
 
