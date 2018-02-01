@@ -41,7 +41,6 @@ while (n_apuestas < 200 and mi_plata >0 and mi_plata <=200 ):
         mi_plata +=1
     else:
         mi_plata -=1
-    print(n_apuestas)
     plata.append(mi_plata)
     apuestas.append(n_apuestas)
 
