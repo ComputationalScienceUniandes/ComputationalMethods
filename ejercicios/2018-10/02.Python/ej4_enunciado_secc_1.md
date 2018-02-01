@@ -18,6 +18,7 @@ y = r * np.cos(theta)
 plt.plot(x,y)
 plt.savefig('espiral.png')
 ```
+![espiral](espiral.png)
 
 2. En un juego de cara y sello donde se que la probabilidad de sacar cara es 0.49 y la de sacar sello es 0.51 decido apostar
 con mi contrincante 1 peso por cada ves que yo saque sello. Es decir, si sale sello el me da 1 peso, si sale cara yo le doy 1 peso.
@@ -47,6 +48,9 @@ while (n_apuestas < 200 and mi_plata >0 and mi_plata <=200 ):
 plt.plot(apuestas, plata)
 plt.savefig('apuestas.png')
 ```
+
+![apuestas](apuestas.png)
+
 
 3. Calcule la probabilidad de que al menos 2 personas cumplan años el mismo día entre un grupo de `n` personas.
 y al final haga una gráfica de esta probabilidad como función de `n` para `2<n<100`.
