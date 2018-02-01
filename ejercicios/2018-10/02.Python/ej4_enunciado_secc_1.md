@@ -21,7 +21,7 @@ plt.savefig('espiral.png')
 ![espiral](espiral.png)
 
 2. En un juego de cara y sello donde se que la probabilidad de sacar cara es 0.49 y la de sacar sello es 0.51 decido apostar
-con mi contrincante 1 peso por cada ves que yo saque sello. Es decir, si sale sello el me da 1 peso, si sale cara yo le doy 1 peso.
+con mi contrincante 1 peso por cada vez que yo saque sello. Es decir, si sale sello el me da 1 peso, si sale cara yo le doy 1 peso.
 El juego termina si uno de los dos queda con cero pesos. Ambos empezamos con 100 pesos. La funcion de python debe calcular el dinero que tengo luego de tirar la moneda 'n' veces y al final
 hacer una gráfica de la cantida de dinero en función de `n` para `1<n<200`. 
 
