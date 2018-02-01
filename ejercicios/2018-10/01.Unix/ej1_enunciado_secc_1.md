@@ -40,7 +40,7 @@ awk < calificaciones.dat '{print $1*0.2 + $2*0.2 + $3*0.25 + $4*0.35}' > definit
 6. Calcular cuantos estudiantes pasaron el curso.
 
 ```bash
-awk < definitivas.dat '{if($1>=60) print $1 }'  |wc -l
+awk < definitivas.dat '{if($1>=60) print $0 }'  |wc -l
 ```
 
 7. Crear un solo archivo con las calificaciones y la definitiva.
@@ -51,12 +51,12 @@ paste calificaciones.dat definitivas.dat > todo.dat
 8. Calcular cuantos estudiantes perdieron el primer parcial y pasaron el curso.
 
 ```bash
-awk < todo.dat '{if ($5>=60 && $1<60.0)print $1, $2}' |wc -l
+awk < todo.dat '{if ($5>=60 && $1<60.0)print $0}' |wc -l
 ```
 
 9. Calcular cuantos estudiantes perdieron al menos un parcial y pasaron el curso.
 ```bash
-awk < todo.dat '{if ($5>=60 && ($1<60.0||$2<60 || $3<60 ||$4<60))print $1}'  |wc -l
+awk < todo.dat '{if ($5>=60 && ($1<60.0||$2<60 || $3<60 ||$4<60))print $0}'  |wc -l
 ```
 
 10. Crear el archivo `avance_dia_1.tar` con los contenidos del directorio donde ha venido trabajando hasta ahora.
