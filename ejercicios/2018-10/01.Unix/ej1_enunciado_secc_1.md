@@ -7,7 +7,8 @@ mkdir -p mi_usuario/ejercicios/01.Unix
 ```
    
 2. Bajar los archivos `calificaciones.dat` y `enunciado.md` a el directorio que acaba de crear.
-```
+
+```bash
 cd mi_usuario/ejercicios/01.Unix
 wget https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionales/master/ejercicios/2018-10/01.Unix/calificaciones.dat
 wget https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionales/master/ejercicios/2018-10/01.Unix/enunciado.md
@@ -19,14 +20,14 @@ Escriba los comandos para:
 
 3. Encontrar el numero total de estudiantes en el curso.
 
-```
+```bash
 wc -l calificaciones.dat #en realidad da el número de estudiantes más uno.
 ```
 
 
 4. Calcular las notas definitivas por cada estudiante.
 
-```
+```bash
 awk < calificaciones.dat '{print $1*0.2 + $2*0.2 + $3*0.25 + $4*0.35}'
 ```
 
