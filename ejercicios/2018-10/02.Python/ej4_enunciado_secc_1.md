@@ -54,4 +54,49 @@ plt.savefig('apuestas.png')
 3. Calcule la probabilidad de que al menos 2 personas cumplan años el mismo día entre un grupo de `n` personas.
 y al final haga una gráfica de esta probabilidad como función de `n` para `2<n<100`.
 
- 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def coincide(n_gente):
+    """
+    Calcula si hay coincidencias en conjunto
+    aleatorio de dias de cumpleanos de n_gente
+    
+    Devuelve 1 si hay coincidencia, 0 si todos
+    los dias de cumple son unicos
+    """
+
+    dias_cumple = np.random.randint(0,high=365, size=n_gente)
+    dias_unicos = len(np.unique(dias_cumple))
+    if(dias_unicos < n_gente):
+        coincidencia = 1
+    else:
+        coincidencia = 0
+    return coincidencia
+
+def coincide_fraccion(n_gente, n_intentos=10000):
+    """
+    Calcula la probabilidad frecuentista de
+    tener dentro de un grupo con n_gente personas 
+    coincidencias en el dia del cumple.
+    Para esto se generan n_intentos de estos grupos
+    y se cuenta la fraccion final que tiene coincidencias.
+    """
+    n_coincide = 1.0
+    for i in range(n_intentos):
+        n_coincide += coincide(n_gente)
+    return n_coincide/n_intentos
+
+n_gente = []
+proba_coincide = []
+for i in range(2,200):
+    n_gente.append(i)
+    proba_coincide.append(coincide_fraccion(i))
+    print(i)
+
+plt.plot(n_gente, proba_coincide)
+plt.savefig('coincide_cumple.png')
+```
+![coincide](coincide_cumple.png)
+
