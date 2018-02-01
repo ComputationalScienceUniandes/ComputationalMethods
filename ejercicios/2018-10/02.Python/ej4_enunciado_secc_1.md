@@ -1,4 +1,4 @@
-En un mismo de python escriba tres funciones que 
+Escriba tres scripts de python para resolver los siguientes ejercicios.
 
 1. Haga una gráfica de la espiral de arquímedes (https://en.wikipedia.org/wiki/Archimedean_spiral)
 
