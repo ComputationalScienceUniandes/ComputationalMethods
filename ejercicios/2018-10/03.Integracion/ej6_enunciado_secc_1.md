@@ -49,7 +49,7 @@ plt.plot(log_n_points, np.log10(frac_error_trapecio), label='Trapecio')
 plt.plot(log_n_points, np.log10(frac_error_simpson), label='Simpson')
 plt.xlabel('$\log_{10}$ N_points')
 plt.ylabel('$\log_{10}$ Error')
-plt.title("Error en el calculo de $\int_0^1\exp(x)\d x$")
+plt.title("Error en el calculo de $\int_0^1\exp(x) dx$")
 plt.legend()
 plt.savefig('error.png')
 ```
