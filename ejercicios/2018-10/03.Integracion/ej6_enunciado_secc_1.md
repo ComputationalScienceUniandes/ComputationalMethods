@@ -53,5 +53,10 @@ plt.title("Error en el calculo de $\int_0^1\exp(x)\d x$")
 plt.legend()
 plt.savefig('error.png')
 ```
+
+![error](error.png)
+
+Bono: Calcule la ley de potencia con la que el error decrece en los dos algoritmos.
+
     
 
