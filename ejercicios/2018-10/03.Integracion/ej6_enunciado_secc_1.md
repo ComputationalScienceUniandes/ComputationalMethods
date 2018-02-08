@@ -2,6 +2,8 @@ Escriba en python una implementación del algoritmo de Simpson para integrar una
 
 
 ```python
+import numpy as np
+
 def simpson(f, a, b, N):
     x = np.linspace(a, b, N)
     y = f(x)
