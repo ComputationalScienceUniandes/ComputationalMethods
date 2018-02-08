@@ -9,7 +9,7 @@ def trapecio(f, a, b, N):
     y = f(x)
     suma = 0.0
     for i in range(N-1):
-        suma += (y[i] + y[i+1]) * (x[i+1] -x[i])
+        suma += 0.5 * (y[i] + y[i+1]) * (x[i+1] -x[i])
     return suma
 ```
 
