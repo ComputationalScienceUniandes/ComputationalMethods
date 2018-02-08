@@ -2,6 +2,7 @@ Escriba en python una implementación del algoritmo del trapecio para integrar
 la función `exp(x)` en el intervalo 0 a 1.
 
 ```python
+import numpy as np
 
 def trapecio(f, a, b, N):
     x = np.linspace(a, b, N)
