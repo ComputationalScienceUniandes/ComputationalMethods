@@ -43,6 +43,8 @@ plt.ylabel('Error Fracional')
 plt.savefig("deriva.png")
 
 ```
+![deriva](deriva.png)
+
 
 BONO. Encuentre la pendiente con la que aumenta el error con h en la region que no esta dominada por el error numerico.
 
