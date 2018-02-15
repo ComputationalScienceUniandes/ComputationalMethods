@@ -1,4 +1,4 @@
-* Escriba en python un programa que encuentre el ángulo al que debe ser enviado un proyectil con posición inicial en el origen del sistema de coordenadas para que pase por un punto de altura h a una distancia d.
+* Escriba en python un programa que encuentre el ángulo al que debe ser enviado un proyectil con posición inicial en el origen del sistema de coordenadas para que pase por un punto de coordenadas `(x,y)` fijas.
 El programa debe llamarse como `def apunta(v, x, y):` donde `v` es la rapidez inicial, `x` es la posicion deseada en x y `y` es la posicion deseada en y.
 
 ```python
