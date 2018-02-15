@@ -60,12 +60,9 @@ plt.savefig('trayectoria.png')
 
 ```
 
-![deriva](deriva.png)
+![apunta](apunta.png)
 
 ![trayectoria](trayectoria.png)
-
-BONO. Encuentre la pendiente con la que aumenta el error con h en la region que no esta dominada por el error numerico.
-
 
 
 
