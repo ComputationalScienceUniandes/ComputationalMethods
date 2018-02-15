@@ -20,7 +20,7 @@ def apunta(v, x, y, n_iter=1000, epsilon=1E-6):
     i = 0
     while (i<n_iter) & (np.abs(func(v,x,y,theta)) > epsilon):
         theta = theta - func(v,x,y,theta)/deriva_func(v,x,y,theta)
-        i = i + 1        
+        i = i + 1     
     return theta
 
 # Solamente lo que esta arriba de este comentario era necesario,
