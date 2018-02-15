@@ -36,16 +36,18 @@ theta = np.linspace(1E-2, 1.4, 100)
 parametros = "v = {:.1f} m/s, x = {:.1f} m, y = {:.1f} m".format(v,x,y)
 solucion = "$\\theta_0$ = {:.1f} grados".format(np.rad2deg(theta_0))
 
+# Grafica para verificar el cero de la funcion
 plt.figure()
 plt.plot(theta, func(v, x, y, theta), label="$f(\\theta)$")
 plt.scatter(theta_0, func(v,x,y, theta_0), label=solucion)
-
 plt.title(parametros)
 plt.xlabel('$\\theta$ (radianes)')
 plt.ylabel('$f(\\theta)$')
 plt.legend()
+plt.grid()
 plt.savefig('apunta.png')
 
+# Grafica para verificar la trayectoria
 plt.figure()
 rangex = np.linspace(0.0, x)
 rangey = func(v, rangex, y, theta_0) + y
