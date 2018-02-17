@@ -1,0 +1,128 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+{\Large Métodos Computacionales} \\
+Taller 1 --- 2018-10\\
+
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.3cm}
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de las 5:00PM
+del lunes 19 de febrero del 2018. 
+Si se entrega la tarea antes del lunes 12 de febrero del 2018 a las
+11:59PM los ejercicios se van a calificar con el bono indicado. 
+\noindent
+
+\vspace{0.3cm}
+(10 puntos) Los archivos del c\'odigo  deben subirse en un
+\'unico archivo \verb".zip" con el nombre
+\verb"NombreApellido_taller1.zip", por ejemplo si su nombre es Miranda
+July deber\'ia subir el zip
+\verb"MirandaJuly_taller1.zip" al descomprimir el zip debe crearse la
+carpeta \verb"MirandaJuly_taller1" y adentro debe estar el c\'odigo.
+
+
+
+\vspace{0.3cm}
+\begin{questions}
+
+\question {{\bf Geometr\'ia 1} (20 puntos)} 
+
+Escriba un programa en Python que dados dos puntos en tres
+dimensiones, $\vec{p}_1$ y $\vec{p}_2$, encuentre los puntos de
+intersecci\'on (si existen) con la esfera centrada en $\vec{c}$ y de
+radio $R$.  
+La funci\'on se define como  \verb"def interseccion(p1, p2, c, R)",
+donde \verb"p1", \verb"p2" y \verb"c" son listas de 3 entradas con los
+valores $x$, $y$ y $z$ de los vectores y \verb"R" es un float con el
+radio de la esfera.  
+La funci\'on debe devolver dos listas de 3 entradas con los valores de
+la intersecci\'on o \verb"False" si no hay intersecci\'on.  
+
+El nombre del archivo debe ser \verb"geometria_1.py".
+
+\question {{\bf Geometría 2} (20 (25) puntos)}
+
+Escriba un programa en Python que encuentre el radio máximo de una
+esfera centrada en un punto con coordenadas
+($x_0$, $y_0$, $z_0$) y contenida en un cubo centrado en (0,0,0) y de
+lado $(x_0^4+y_0^4+z_0^4)$, donde $|x_0|>1$, $|y_0|>1$, $|z_0|>1$
+
+La funci\'on se define como  \verb"def radio_maximo(p)", donde
+\verb"p" es una lista de 3 entradas con los valores $x_0$, $y_0$,
+$z_0$ y debe devolver un float con el valor del radio m\'aximo.
+
+El nombre del archivo debe ser \verb"geometria_2.py".
+
+\question {{\bf La flor de la vida} (30 (35) puntos)}
+
+Escriba un programa en Python que dibuje La Flor de la Vida\footnote{\verb"https://es.wikipedia.org/wiki/Flor\_de\_la\_Vida"}
+
+La funci\'on se define como  \verb"def vida()" donde no hay argumentos
+de entrada y ning\'un valor devuelto. La gr\'afica se debe guardar en el archivo \verb"flor.png".
+
+El nombre del archivo debe ser \verb"flor.py".
+
+\question {{\bf Temperaturas promedio globales desde 1800}}
+
+El archivo \url{https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts.txt}
+ contiene los datos del cambio de temperatura promedio global con
+respecto a la temperatura "base" para los distintos meses de año. La
+temperatura base está calculada entre los años 1951 y 1980 y los datos
+corresponden al periodo entre 1800 y 2017. Para obtener los cambios en
+grados Celsius debe dividir los datos por 100.
+
+En este ejercicio usted debe escribir un script llamado
+\verb"temperaturas.sh" que: 
+
+\begin{enumerate}
+\item (5 puntos) Descargue los datos de
+\url{https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts.txt} usando el comando \verb"curl".
+\item (10 puntos) Guarde en un archivo llamado \verb"TempDic.txt" los años en
+que la temperatura de diciembre ha estado por encima de la temperatura base.
+\item (10 puntos) Guarde en un archivo llamado \verb"TempPromedios.txt"
+  dos columnas. Una con el promedio (de enero a diciembre) del cambio de temperatura anual y
+  la otra con el año.    
+\item (5 puntos) Grafique los datos del numeral 3 (Cambio en la temperatura promedio anual vs año). La gr\'afica debe
+  quedar guardada con el nombre \verb"temppromedios.png". La gr\'afica
+  tambi\'en debe marcar
+  claramente los ejes con sus unidades correspondientes. 
+
+\end{enumerate}
+
+Para hacer la gráfica del numeral 4 escriba un código en python (de
+nombre \verb"grafica.py") que se ejecute desde el script
+\verb"temperaturas.sh". 
+
+
+
+\end{questions}
+\end{document}
