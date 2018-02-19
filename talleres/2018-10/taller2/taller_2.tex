@@ -24,24 +24,32 @@ Tarea 2 --- 2018-10\\
 
 \end{center}
 
-%\begin{textblock*}{40mm}(10mm,20mm)
-%  \includegraphics[width=3cm]{logoUniandes.png}
-%\end{textblock*}
 
-%\begin{textblock*}{40mm}(164mm,20mm)
-%  \includegraphics[width=3cm]{logoUniandes.png}
-%\end{textblock*}
+\vspace{0.3cm}
 
+\noindent
+La solución a este taller debe subirse por SICUA antes de las 5:00PM
+del lunes 19 de febrero del 2018. 
+Si se entrega la tarea antes del lunes 12 de febrero del 2018 a las
+11:59PM los ejercicios se van a calificar con el bono indicado. 
+\noindent
 
-Todos los archivos de esta tarea deben guardarse un zip de llamado \verb"minombre_miapellido_tarea2.zip".
+\vspace{0.3cm}
+(10 puntos) Los archivos del c\'odigo  deben subirse en un
+\'unico archivo \verb".zip" con el nombre
+\verb"NombreApellido_taller2.zip", por ejemplo si su nombre es Maria
+Cano deber\'ia subir el zip
+\verb"MariaCano_taller2.zip" al descomprimir el zip debe crearse la
+carpeta \verb"MariaCano_taller2" y adentro deben estar los archivos
+solicitados. 
 
 \begin{questions}
 
 \question {{\bf Concentración de CO2 en la atmósfera.}}
 
 El objetivo de este ejercicio es explorar los datos de concentraciones
-de CO$_2$ en la atmósfera y mirar cuáles han sido las tendencias desde
-1960 estudiar la tasa a la cuál se está incrementando dicha
+de CO$_2$ en la atmósfera, mirar cuáles han sido las tendencias desde
+1960 y estudiar la tasa a la cuál se está incrementando dicha
 concentración. 
 
 Para esto debe escribir un script \verb"analiza_CO2.sh" para descargar los datos de
@@ -51,14 +59,14 @@ y correr un script de python \verb"analiza.py" que analice los datos.
 El script de python debe: 
 
 \begin{itemize}
-\item Graficar en el archivo \verb"CO2.png" la concentración de CO$_2$
+\item (5 puntos) Graficar en el archivo \verb"CO2.png" la concentración de CO$_2$
   atmosférico en función del tiempo.
-\item Graficar en el archivo \verb"derivada1_CO2.png" la tasa de
+\item (5 puntos) Graficar en el archivo \verb"derivada1_CO2.png" la tasa de
   cambio de dicha concentración en función del tiempo. 
-\item Graficar en el archivo \verb"derivada2_CO2.png" la segunda
+\item (10 puntos) Graficar en el archivo \verb"derivada2_CO2.png" la segunda
   derivada de la concentraci\'on de CO$_2$ en funci\'on del tiempo.
   Esta gr\'afica tambi\'en debe incluir una l\'inea horizontal que
-  marca la pendiente media de la gr\'afica anterio de tasa de cambio
+  marca la pendiente media de la tasa de cambio (la gr\'afica anterior)
   calculada entre 1960 y 2016.
 \end{itemize}
 
@@ -76,10 +84,10 @@ El script de python debe hacer una gr\'afica \verb"temp_analisis.png"
 que 
 
 \begin{itemize}
-\item Muestre la evoluci\'on temporal de la temperatura. 
-\item Marque los m\'aximos de la temperatura.
-\item Marque los intervalos donde la temperatura crece.
-\end{itemize}
+\item (5 puntos) Muestre la evoluci\'on temporal de la temperatura. 
+\item (5 puntos) Marque los m\'aximos de la temperatura.
+\item (10 puntos) Marque los intervalos donde la temperatura crece. 
+\end{itemize} 
 
 
 \question {{\bf Distribuci\'on Maxwelliana}}
@@ -101,10 +109,9 @@ Escriba en el archivo \verb"maxwell.py" las funciones necesarias para
 calcular num\'ericamente como funci\'on de la temperatura en el rango
 $100<T/K<1000$ para gases de Helio, Neon y Argon:  
 \begin{itemize}
-\item La posici\'on del pico de esta densidad de probabilidad, es
+\item (15 (20) puntos) La posici\'on del pico de esta densidad de probabilidad, es
   decir, la velocidad $v_{\rm max}$ para la cual $\frac{d \rho}{dv}|_{v_{\rm max}}=0$.
-\item La fracci\'on del n\'umero total de \'atomos que tiene una
-  rapidez mayor o igual a $300$ m/s, es decir, el cociente $f_{300} =
+\item (15 (20) puntos) La fracci\'on del n\'umero total de \'atomos que tiene una rapidez mayor o igual a $300$ m/s, es decir, el cociente $f_{300} =
   \int_{300}^{\infty}\rho(v)dv/\int_0^{\infty}\rho(v)dv$.
 \end{itemize}
 Los resultados deben guardarse como dos gr\'aficas: \verb"pico.png" y
@@ -114,7 +121,7 @@ Los resultados deben guardarse como dos gr\'aficas: \verb"pico.png" y
 
 \question {{\bf Funci\'on Gamma}}
 
-Escriba en el archivo \verb"gamma.py" una funci\'on en Python
+(20 (30) puntos) Escriba en el archivo \verb"gamma.py" una funci\'on en Python
 (\verb"def gamma(z)") que devuelve en una variable \verb"float" el
 valor de la funci\'on gamma para cualquier n\'umero real positivo
 mayor que uno.  
@@ -125,15 +132,18 @@ La funci\'on gamma est\'a definida por la integral
 \Gamma(z) = \int_{0}^{\infty}x^{z-1}e^{-x}dx.
 \end{equation}
 
-Para calcular esta integral con los m\'etodos vistos en clase lo m\'as
-f\'acil es reescribirla como la suma de dos integrales $\int_0^{\infty} =
-\int_{0}^{1} + \int_{1}^{\infty}$ de tal manera que la primera
-integral definida es posible calcularla con la regla de Simpson. La
-segunda integral indefinida se puede convertir a una integral definida
-haciendo un cambio de variable para resolverla tambi\'en con la regla
-de Simpson. 
-
-
 
 \end{questions}
+
+\noindent
+NB: Para calcular integrales indefinidas con los m\'etodos vistos en
+clase lo m\'as  f\'acil es reescribirla como la suma de dos integrales
+$\int_0^{\infty} = \int_{0}^{1} + \int_{1}^{\infty}$ de tal manera que
+la primera integral definida es posible calcularla con la regla de
+Simpson. La segunda integral indefinida se puede convertir a una
+integral definida haciendo un cambio de variable para resolverla
+tambi\'en con la regla de Simpson.  
+
+
+
 \end{document}
