@@ -20,7 +20,7 @@
 \begin{document}
 \begin{center}
 {\Large Métodos Computacionales} \\
-Taller 1 --- 2018-10\\
+Tarea 2 --- 2018-10\\
 
 \end{center}
 
@@ -32,95 +32,101 @@ Taller 1 --- 2018-10\\
 %  \includegraphics[width=3cm]{logoUniandes.png}
 %\end{textblock*}
 
-\vspace{0.3cm}
 
-\noindent
-La solución a este taller debe subirse por SICUA antes de las 5:00PM
-del lunes 19 de febrero del 2018. 
-Si se entrega la tarea antes del lunes 12 de febrero del 2018 a las
-11:59PM los ejercicios se van a calificar con el bono indicado. 
-\noindent
+Todos los archivos de esta tarea deben guardarse un zip de llamado \verb"minombre_miapellido_tarea2.zip".
 
-\vspace{0.3cm}
-(10 puntos) Los archivos del c\'odigo  deben subirse en un
-\'unico archivo \verb".zip" con el nombre
-\verb"NombreApellido_taller1.zip", por ejemplo si su nombre es Miranda
-July deber\'ia subir el zip
-\verb"MirandaJuly_taller1.zip" al descomprimir el zip debe crearse la
-carpeta \verb"MirandaJuly_taller1" y adentro debe estar el c\'odigo.
-
-
-
-\vspace{0.3cm}
 \begin{questions}
 
-\question {{\bf Geometr\'ia 1} (20 puntos)} 
 
-Escriba un programa en Python que dados dos puntos en tres
-dimensiones, $\vec{p}_1$ y $\vec{p}_2$, encuentre los puntos de
-intersecci\'on (si existen) con la esfera centrada en $\vec{c}$ y de
-radio $R$.  
-La funci\'on se define como  \verb"def interseccion(p1, p2, c, R)",
-donde \verb"p1", \verb"p2" y \verb"c" son listas de 3 entradas con los
-valores $x$, $y$ y $z$ de los vectores y \verb"R" es un float con el
-radio de la esfera.  
-La funci\'on debe devolver dos listas de 3 entradas con los valores de
-la intersecci\'on o \verb"False" si no hay intersecci\'on.  
+\question {{\bf Análisis de datos de temperatura}}
 
-El nombre del archivo debe ser \verb"geometria_1.py".
+En este ejercicio debe hacer una análisis de datos de las temperauras promedio mensuales en Nottigham durante 20 años. La idea es que usted escriba un script \verb"minombre_miapellido_temp.sh" para descargar los datos de \url{https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/datasets/nottem.csv} y correr un script de python que analice los datos.\\
 
-\question {{\bf Geometría 2} (20 (25) puntos)}
+El script de python debe: 
 
-Escriba un programa en Python que encuentre el radio máximo de una
-esfera centrada en un punto con coordenadas
-($x_0$, $y_0$, $z_0$) y contenida en un cubo centrado en (0,0,0) y de
-lado $(x_0^4+y_0^4+z_0^4)$, donde $|x_0|>1$, $|y_0|>1$, $|z_0|>1$
+\begin{itemize}
+\item Graficar las temperaturas en función del tiempo. Guardar dicha gráfica sin mostrarla en \verb"Temp.pdf"
+\item Determinar los tiempos para los cuales hay máximos de la temperatura e imprmir dichos datos. 
+\item Obtener los intervalos durante los cuales la temperatura crece.
+\item Graficar las temperaturas en función del tiempo, las temperaturas en los intervalos de tiempo donde la temperatura crece y los máximos de temperatura. Guardar dicha gráfica sin mostrarla en \verb"Temp_results.pdf" 
+\end{itemize}
 
-La funci\'on se define como  \verb"def radio_maximo(p)", donde
-\verb"p" es una lista de 3 entradas con los valores $x_0$, $y_0$,
-$z_0$ y debe devolver un float con el valor del radio m\'aximo.
+\question {{\bf Concentración de CO2 en la atmósfera.}}
 
-El nombre del archivo debe ser \verb"geometria_2.py".
+El objetivo de este ejercicio es explorar los datos de concentraciones
+de CO$_2$ en la atmósfera y mirar cuáles han sido las tendencias desde
+1960 estudiar la tasa a la cuál se está incrementando dicha
+concentración. 
 
-\question {{\bf La flor de la vida} (30 (35) puntos)}
 
-Escriba un programa en Python que dibuje La Flor de la Vida\footnote{\verb"https://es.wikipedia.org/wiki/Flor\_de\_la\_Vida"}
+Para esto debe escribir un script \verb"analiza_CO2.sh" para descargar los datos de
+\url{ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_annmean_mlo.txt}
+y correr un script de python \verb"analiza.py" que analice los datos.\\
 
-La funci\'on se define como  \verb"def vida()" donde no hay argumentos
-de entrada y ning\'un valor devuelto. La gr\'afica se debe guardar en el archivo \verb"flor.png".
+El script de python debe: 
 
-El nombre del archivo debe ser \verb"flor.py".
+\begin{itemize}
+\item Graficar en el archivo \verb"CO2.png" la concentración de CO$_2$
+  atmosférico en función del tiempo.
+\item Graficar en el archivo \verb"derivada1_CO2.png" la tasa de
+  cambio de dicha concentración en función del tiempo. 
+\item Graficar en el archivo \verb"derivada2_CO2.png" la segunda
+  derivada de la concentraci\'on de CO$_2$ en funci\'on del tiempo.
+  Esta gr\'afica tambi\'en debe incluir una l\'inea horizontal que
+  marca la pendiente media de la gr\'afica anterio de tasa de cambio
+  calculada entre 1960 y 2016.
+\end{itemize}
 
-\question {{\bf Temperaturas promedio globales desde 1800}}
+\question {{\bf Distribuci\'on Maxwelliana}}
 
-El archivo \url{https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts.txt}
- contiene los datos del cambio de temperatura promedio global con
-respecto a la temperatura "base" para los distintos meses de año. La
-temperatura base está calculada entre los años 1951 y 1980 y los datos
-corresponden al periodo entre 1800 y 2017. Para obtener los cambios en
-grados Celsius debe dividir los datos por 100.
+Para un gas ideal la probabilidad de que la rapidez de una mol\'ecula
+sea $v$ est\'a determinada por una densidad de probabilidad
+Maxwelliana  
 
-En este ejercicio usted debe escribir un script llamado
-\verb"temperaturas.sh" que: 
+\begin{equation}
+\rho = C\frac{v^2}{\sigma^3}\exp{\left(-\frac{1}{2}\frac{v^2}{\sigma^2}\right)}, 
+\end{equation}
 
-\begin{enumerate}
-\item (5 puntos) Descargue los datos de
-\url{https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts.txt} usando el comando \verb"curl".
-\item (10 puntos) Guarde en un archivo llamado \verb"TempDic.txt" los años en
-que la temperatura de diciembre ha estado por encima de la temperatura base.
-\item (10 puntos) Guarde en un archivo llamado \verb"TempPromedios.txt"
-  dos columnas. Una con el promedio (de enero a diciembre) del cambio de temperatura anual y
-  la otra con el año.    
-\item (5 puntos) Grafique los datos del numeral 3 (Cambio en la temperatura promedio anual vs año). La gr\'afica debe
-  quedar guardada con el nombre \verb"temppromedios.png". La gr\'afica
-  tambi\'en debe marcar
-  claramente los ejes con sus unidades correspondientes. 
+donde $\sigma=\sqrt{kT/M}$, con $k$ la constante de Boltzmann, $T$ la
+temperatura absoluta, $M$ la masa de la mol\'ecula y $C$ es una
+constante adimensional tal que $\int_{0}^{\infty}\rho(v)dv=1$.
 
-\end{enumerate}
 
-Para hacer la gráfica del numeral 4 escriba un código en python (de
-nombre \verb"grafica.py") que se ejecute desde el script
-\verb"temperaturas.sh". 
+Escriba en el archivo \verb"maxwell.py" las funciones necesarias para
+calcular num\'ericamente como funci\'on de la temperatura en el rango
+$100<T/K<1000$ para gases de Helio, Neon y Argon:  
+\begin{itemize}
+\item La posici\'on del pico de esta densidad de probabilidad, es
+  decir, la velocidad $v_{\rm max}$ para la cual $\frac{d \rho}{dv}|_{v_{\rm max}}=0$.
+\item La fracci\'on del n\'umero total de \'atomos que tiene una
+  rapidez mayor o igual a $300$ m/s, es decir, el cociente $f_{300} =
+  \int_{300}^{\infty}\rho(v)dv/\int_0^{\infty}\rho(v)dv$.
+\end{itemize}
+Los resultados deben guardarse como dos gr\'aficas: \verb"pico.png" y
+\verb"fraccion.png". 
+
+
+
+\question {{\bf Funci\'on Gamma}}
+
+Escriba en el archivo \verb"gamma.py" una funci\'on en Python
+(\verb"def gamma(z)") que devuelve en una variable \verb"float" el
+valor de la funci\'on gamma para cualquier n\'umero real positivo
+mayor que uno.  
+
+La funci\'on gamma est\'a definida por la integral
+
+\begin{equation}
+\Gamma(z) = \int_{0}^{\infty}x^{z-1}e^{-x}dx.
+\end{equation}
+
+Para calcular esta integral con los m\'etodos vistos en clase lo m\'as
+f\'acil es reescribirla como la suma de dos integrales $\int_0^{\infty} =
+\int_{0}^{1} + \int_{1}^{\infty}$ de tal manera que la primera
+integral definida es posible calcularla con la regla de Simpson. La
+segunda integral indefinida se puede convertir a una integral definida
+haciendo un cambio de variable para resolverla tambi\'en con la regla
+de Simpson. 
 
 
 
