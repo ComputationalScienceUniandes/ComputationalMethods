@@ -18,11 +18,11 @@ new_y = np.dot(np.transpose(A), y)
 solucion = np.linalg.solve(new_A, new_y)
 
 best_t = np.linspace(t.min(), t.max(), 100)
-best_y = solucion[0] * t ** 2 + solucion[1] * t + solucion[2]
+best_y = solucion[0] * best_t ** 2 + solucion[1] * best_t + solucion[2]
 
 
 plt.scatter(t, y, alpha=0.5, label="Datos")
-plt.plot(t, best_y, label="Fit")
+plt.plot(best_t, best_y, label="Fit")
 plt.grid()
 plt.legend()
 plt.xlabel('Tiempo (s)')
