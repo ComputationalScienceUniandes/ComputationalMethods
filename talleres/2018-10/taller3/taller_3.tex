@@ -1,0 +1,142 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+{\Large Métodos Computacionales} \\
+Tarea 3 --- 2018-10\\
+
+\end{center}
+
+
+\vspace{0.3cm}
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de las 5:00PM
+del lunes 19 de marzo del 2018. 
+Si se entrega la tarea antes del lunes 12 de marzo del 2018 a las
+11:59PM los ejercicios se van a calificar con el bono indicado. 
+\noindent
+
+\vspace{0.3cm}
+(10 puntos) Los archivos del c\'odigo  deben subirse en un
+\'unico archivo \verb".zip" con el nombre
+\verb"NombreApellido_taller2.zip", por ejemplo si su nombre es Vandana
+Shiva deber\'ia subir el zip
+\verb"VandanaShiva_taller2.zip" al descomprimir el zip debe crearse la
+carpeta \verb"VandanaShiva_taller2" y adentro deben estar los archivos
+solicitados. 
+En la implementaci\'on principal de los algoritmos solicitados la
+copia y reutilizaci\'on de c\'odigo de cualquier fuente de internet
+(inclu\'ido el repositorio del curso) deja la nota en cero.  
+
+\begin{questions}
+
+
+
+  \question{{\bf Un script para hacer todo}}
+
+(10 puntos) 
+Prepare un unico script llamado \verb"minombre_miapellido_tarea3.sh" 
+con los comandos para descargar los datos y ejecutar los scripts de python
+de los siguientes ejercicios.
+
+    \question{{\bf Airbnb Berlin}}
+
+(30 (35) puntos) En este ejercicio usted debe analizar los datos de Airbnb
+    de la ciudad de Berlin que se encuentran en
+    \url{https://s3.amazonaws.com/tomslee-airbnb-data-2/berlin.zip}. 
+    Para esto escriba el script de Python \verb"berlin.py" que
+    {\bf para cada uno de los archivos dentro del zip:}\\
+    \begin{itemize}
+    \item {Lea los datos de \verb"overall\_satisfaction", \verb"acommodates",
+        \verb"bedrooms", \verb"price", \verb"minstay".}
+    \item{Calcule la media y desviaci\'on est\'andar de cada columna
+      para renormalizar los datos para que tengan media cero y
+      desviaci\'on est\'andar de uno.}
+    \item{Usando su propia implementaci\'on, calcule la matriz de
+      covarianza.}
+    \item{Utilice matriz de covarianza para calcular la lista de las
+      dos variables que est\'an m\'as correlacionadas y las dos m\'as
+      anticorrelacionadas.}
+    \end{itemize}
+    Los resultados de las variables
+    correlacionadas/anticorrelacionadas se deben escribir en el
+    archivo de texto \verb"variables_berlin.txt" con cinco columnas: la
+    fecha que se encuentra el nombre del archivo procesado (por
+    ejemplo \verb"2015-07-04"), el nombre
+    de las dos variables correlacionadas y el nombre de las dos
+    variables anticorrelacionadas. 
+
+
+
+\question {{\bf Educaci\'on, Etnicidad y Salarios}}
+
+(30 (35) puntos) En este ejercicio usted debe analizar los datos de
+educaci\'on, etnicidad y salarios que se encuentran aqu\'i:
+
+\url{https://github.com/vincentarelbundock/Rdatasets/blob/master/csv/DAAG/cps1.csv}.
+
+La descripci\'on de estos datos se encuentra aqui:
+
+\url{https://github.com/vincentarelbundock/Rdatasets/blob/master/doc/DAAG/cps1.html}
+
+    Para esto escriba el script de Python \verb"pca_salario.py" que
+    incluya una funci\'on
+
+    \verb"def predice_salario(age,educ,black,hisp,marr,nodeg)" 
+
+    que
+    prediga el salario en 1974 dadas las entradas correspondientes. 
+    La funci\'on debe devolver un float con el salario predicho.
+    La predicci\'on se debe hacer usando an\'alisis de componentes
+    principales tal como se explica en la secci\'on 6.3.1 del libro ISL.
+
+\question {{\bf Spline c\'ubico}}
+
+(30 (35) puntos) El spline c\'ubico es un m\'etodo de interpolaci\'on. La idea es que dados
+$N-1$ pares de puntos discretos ($x_0,\ldots\, x_{N-1}$) con sus valores
+correspondientes ($y_0\ldots, y_{N-1}$) se puede encontrar un conjunto
+de funciones que conecta esos puntos de una manera suave.
+En este ejercicio debe escribir su propia implementaci\'on tomando
+como condici\'on de frontera que la segunda derivada en los puntos
+extremos es cero.
+
+Para esto debe crear un archivo llamado \verb"interpolacion.py" que
+contenga a la funci\'on \verb"def mi_spline(x_in, y_in, x_inter)" que
+toma como entrada los arrays de numpy \verb"x_in", \verb"y_in" como los
+puntos que dan la base para crear la interpolaci\'on y \verb"x_inter"
+los puntos que se desean interpolar. 
+
+Si \verb"x_inter" es un escalar
+la funci\'on debe devolver un escalar con el valor de la
+interpolaci\'on en ese punto.
+Si \verb"x_inter" es un array de numpy la funci\'on debe devolver un
+array de numpy con los valores correspondientes de la interpolaci\'on
+en esos puntos.
+
+La funci\'on \verb"mi_spline" {\bf debe} encontrar los valores buscados
+a trav\'es de la resoluci\'on del sistema de ecuaciones lineales que
+definen al spline c\'ubico.
+
+\end{questions}
+
+
+
+\end{document}
