@@ -37,10 +37,10 @@ Si se entrega la tarea antes del lunes 12 de marzo del 2018 a las
 \vspace{0.3cm}
 (10 puntos) Los archivos del c\'odigo  deben subirse en un
 \'unico archivo \verb".zip" con el nombre
-\verb"NombreApellido_taller2.zip", por ejemplo si su nombre es Vandana
+\verb"NombreApellido_taller3.zip", por ejemplo si su nombre es Vandana
 Shiva deber\'ia subir el zip
-\verb"VandanaShiva_taller2.zip" al descomprimir el zip debe crearse la
-carpeta \verb"VandanaShiva_taller2" y adentro deben estar los archivos
+\verb"VandanaShiva_taller3.zip" al descomprimir el zip debe crearse la
+carpeta \verb"VandanaShiva_taller3" y adentro deben estar los archivos
 solicitados. 
 En la implementaci\'on principal de los algoritmos solicitados la
 copia y reutilizaci\'on de c\'odigo de cualquier fuente de internet
@@ -53,7 +53,7 @@ copia y reutilizaci\'on de c\'odigo de cualquier fuente de internet
   \question{{\bf Un script para hacer todo}}
 
 (10 puntos) 
-Prepare un unico script llamado \verb"minombre_miapellido_tarea3.sh" 
+Prepare un unico script llamado \verb"NombreApellido_tarea3.sh" 
 con los comandos para descargar los datos y ejecutar los scripts de python
 de los siguientes ejercicios.
 
@@ -105,13 +105,13 @@ La descripci\'on de estos datos se encuentra aqui:
     que
     prediga el salario en 1974 dadas las entradas correspondientes. 
     La funci\'on debe devolver un float con el salario predicho.
-    La predicci\'on se debe hacer usando an\'alisis de componentes
+    La predicci\'on se {\bf debe} hacer usando an\'alisis de componentes
     principales tal como se explica en la secci\'on 6.3.1 del libro ISL.
 
 \question {{\bf Spline c\'ubico}}
 
 (30 (35) puntos) El spline c\'ubico es un m\'etodo de interpolaci\'on. La idea es que dados
-$N-1$ pares de puntos discretos ($x_0,\ldots\, x_{N-1}$) con sus valores
+$N$ pares de puntos discretos ($x_0,\ldots\, x_{N-1}$) con sus valores
 correspondientes ($y_0\ldots, y_{N-1}$) se puede encontrar un conjunto
 de funciones que conecta esos puntos de una manera suave.
 En este ejercicio debe escribir su propia implementaci\'on tomando
@@ -119,7 +119,11 @@ como condici\'on de frontera que la segunda derivada en los puntos
 extremos es cero.
 
 Para esto debe crear un archivo llamado \verb"interpolacion.py" que
-contenga a la funci\'on \verb"def mi_spline(x_in, y_in, x_inter)" que
+contenga a la funci\'on 
+
+\verb"def mi_spline(x_in, y_in, x_inter)" 
+
+que
 toma como entrada los arrays de numpy \verb"x_in", \verb"y_in" como los
 puntos que dan la base para crear la interpolaci\'on y \verb"x_inter"
 los puntos que se desean interpolar. 
