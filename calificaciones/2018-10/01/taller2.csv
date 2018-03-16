@@ -1,0 +1,35 @@
+Nombre completo,,,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,Funcionamiento,Código,Entrega,,,,
+,,Archivo,Punto 1.  a),5,,Punto 1b),5,,Punto 1c),10,,Punto 2. a),5,,Punto 2b),5,,Punto 2c),10,,Punto 3. a),15,,Punto 3b),15, ,Punto 4,20,,Bono,,,Comentarios
+Apellidos,Nombres,10,1.666666667,1.666666667,1.666666667,1.666666667,1.666666667,1.666666667,3.333333333,3.333333333,3.333333333,1.666666667,1.666666667,1.666666667,1.666666667,1.666666667,1.666666667,3.333333333,3.333333333,3.333333333,5,5,5,5,5,5,6.666666667,6.666666667,6.666666667,1,100,120,
+Lesmes Lesmes,Catalina,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,56.66666667,56.66666667,Punto 2. No marca los máximos de la temperatura. No marca los intervalos donde la temperatura crece. Punto 3. Error en ejecución (Mala sintáxis). Punto 4. Error en ejecución (Mala sintáxis)
+Bernal Murcia,Catalina María,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,Perfecto. (Demasiado -.- ) 
+Melo Porras,Daniel Gerardo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,Perfecto
+Rey Robledo,David,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,Perfecto
+Garzón,Diego Alejandro,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100,120,Perfecto
+Perdomo Herrera,Germán David,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,1,0,66.66666667,66.66666667,Punto 3. Incompleto. Punto 4. No cambiar extensión de notebook de jupyter a script de python sólo cambiando la extensión. 
+Gonzalez Aguilera,Juan Pablo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100,120,Perfecto
+Cardona Rocha,Juanita,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,90,90,"Punto 3. No grafica pico.png, pero buen código. "
+Cediel Ramos,Laura,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,Perfecto
+Cáceres Torres,Laura Catalina,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,1,0,73.33333333,73.33333333,"Punto 2. No funciona/ejecuta código. Punto 4. No ejecuta, código mal escrito, errores de sintáxis. "
+Acosta Agudelo,Luisa Daniela,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,1,0,1,1,0,58.33333333,58.33333333,Punto 1. derivada2_CO2.png falta. Punto 2. No ejecuta temperaturas.py. Punto 3. gamma.py no funciona.
+Gutierrez Gomez,Mariana,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,96.66666667,96.66666667,Punto 2. derivada2_CO2 resultado incorrecto en promedio. 
+Copete Plazas,Natalia,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,
+Cardona Cañaveral,Nathalia,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,93.33333333,110,"Punto 4. Sustitución no adecuada, ignora 0. "
+Bojacá Rojas,Nicolás David,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,95,95,Punto 3. Revisar gráfica de fraccion
+Castaño Bonilla,Omar Steven,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,96.66666667,96.66666667,Punto 2. derivada2_CO2 faltó graficar derivada
+Sanabria Garcia,Rafael David,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,95,113.3333333,Punto 3. Revisar gráfica de fraccion
+Gomez Melo,Santiago,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100,120,Perfecto
+Suarez Andrade,Sebastián,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,Perfecto
+Acuña Perez,Vivian Valentina,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100,100,Perfecto
+Lara ,Daniel,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1,0,0,1,0,53.33333333,53.33333333,"Punto 1. Errores en ejecución eneecuta anal Punto 2. Errores en ejecución en temperaturas.pyiza.py Punto 3. Error de sintáxis. Punto 4. No define función a integrar, no realiza integral requerida. "
+Osorio,Juan,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,90,90,"Punto 3. Incompleto, no grafica fraccion.png"
+Vergara,Nicolás,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100,120,Perfecto
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,, ,,,,,,,
