@@ -9,7 +9,6 @@ int main(){
   int posicion;
   int step;
   int i;
-  int max_value;
   srand(time(0));
 
   posicion = 100;
