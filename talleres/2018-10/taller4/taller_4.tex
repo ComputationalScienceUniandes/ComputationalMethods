@@ -1,0 +1,124 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+{\Large Métodos Computacionales} \\
+Taller 4 --- 2018-10\\
+
+\end{center}
+
+
+\vspace{0.3cm}
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de las 5:00PM
+del lunes 16 de abril del 2018. 
+Si se entrega la tarea antes del lunes 2 de abril del 2018 a las
+11:59PM los ejercicios se van a calificar con el bono indicado. 
+\noindent
+
+\vspace{0.3cm}
+(10 puntos) Los archivos del c\'odigo  deben estar en un \'unico repositorio 
+\verb"NombreApellido_taller4", por ejemplo si su nombre es Emma
+Goldman el repositorio debe llamarse \verb"EmmaGoldman_taller4".
+Al clonarlo debe crearse la carpeta \verb"EmmaGoldman_taller4"
+con tres carpetas: \verb"punto_1", \verb"punto_2" y \verb"punto_3"
+
+En la implementaci\'on principal de los algoritmos solicitados la
+copia y reutilizaci\'on de c\'odigo de cualquier fuente de internet
+(inclu\'ido el repositorio del curso) deja la nota en cero.  
+
+Todas las respuestas deben ser escritas en C++.
+
+\begin{questions}
+
+\question{{\bf Suave}}
+
+(30 (35) puntos) Escriba un c\'odigo para aplicar un suavizado
+gaussiano sobre una imagen de formato \verb"png" de entrada. 
+
+El ejecutable debe poder llamarse como 
+\verb"./suave imagen.png n_pixel_kernel", donde \verb"imagen.png" es
+el nombre del archivo de entrada y \verb"n_pixel_kernel" es el ancho
+de la gaussiana del suavizado medida en pixeles.
+El resultado se debe guardar en el archivo
+\verb"suave.png" con la imagen ya suavizada.
+
+
+\question {{\bf Filtro}}
+
+(30 (35) puntos)
+En clase trabajamos el filtrado de una se\~nal unidimensional
+quit\'andole las frecuencias altas y dejando las frecuencias
+bajas. 
+Ahora usted va a intentar algo similar con una imagen.
+Escriba un programa que haga el filtrado de una imagen de
+dos maneras. La primera que deje pasar las frecuencias bajas; la
+segunda que deje pasar las frecuencias altas.  
+En ambos casos implemente un filtro suave. 
+
+Ver la siguiente
+referencia: \url{http://paulbourke.net/miscellaneous/imagefilter/}. 
+
+
+El ejecutable debe poder llamarse como 
+\verb"./filtro imagen.png alto" o \verb"./filtro imagen.png bajo".
+donde \verb"imagen.png" es el nombre del archivo de entrada y 
+\verb"altas/bajas" marca el tipo de frecuencias que deja pasar.
+El resultado se debe guardar en el archivo
+\verb"altas.png"  o \verb"bajas.png" con la imagen resultante.
+
+
+\question{{\bf Fourier no uniforme}}
+
+(30 (35) puntos)
+El algoritmo que vimos en clase para la transformada de Fourier
+discreta es aplicable cuando los datos est\'an distribu\'idos
+uniformemente en el tiempo. 
+
+Ahora usted va a implementar un algoritmo que funciona cuando los
+puntos no est\'an distribu\'idos de manera uniforme. 
+Para esto va a construir primero el polinomio de Lagrange
+correspondiente a los $N$ pares de puntos ${t_i,x(t_i)}$.
+Con esto va a construir un nuevo conjunto de $N$ pares de puntos que
+si se encuentran uniformemente distribuidos en $t$ para calcular la
+transformada de Fourier.
+
+El ejecutable debe poder llamarse como 
+\verb"./fourier datos.txt" 
+donde \verb"datos.txt" es el nombre del archivo de entrada  con dos
+columnas: la primera corresponde al tiempo, la segund a la funci\'on
+del tiempo.
+El resultado se debe guardar en el archivo
+\verb"tranformada.txt" donde se guarda el conjunto de $N$ valores
+complejos en tres columnas:  la primera corresponde a la frecuencias,
+la segunda a la parte real de la transformada y la tercera a la parte imaginaria.
+
+
+
+\end{questions}
+
+
+Nota: Utilice esta libreria \verb"https://github.com/glennrp/libpng" para leer y escribir las
+im\'agenes. 
+Para la transformada de Fourier debe escribir su propia implementaci\'on.
+En todos los casos el ejecutable debe poder crearse con el comando
+\verb"make". 
+\end{document}.
