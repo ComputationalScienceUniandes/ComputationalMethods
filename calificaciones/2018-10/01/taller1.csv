@@ -16,7 +16,7 @@ Catalina María Bernal Murcia,"February 18, 2018 9:55:37 PM",1,0,0,1,0,0,1,0,1,1
 Santiago Gomez Melo,"February 19, 2018 10:10:37 AM",1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,90,96.66666667,0. Lista!=np.darray
 Daniel Gerardo Melo Porras,"February 19, 2018 12:04:19 PM",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,110,120,1. flor.py incompleta
 Rafael David Sanabria Garcia,"February 19, 2018 1:31:07 PM",1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,103.3333333,113.3333333,1. geometria_1.py Error en tipos de datos manejados
-Laura Cediel Ramos,"February 19, 2018 2:18:45 PM",1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,103.3333333,113.3333333,"0. ([],[])!=false 1. geometry_2.py MemoryError para radios muy grandes"
+Laura Cediel Ramos,"February 19, 2018 2:18:45 PM",1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,Codigo casi identico a otra persona.
 Catalina Lesmes Lesmes,"February 19, 2018 3:46:47 PM",1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,91.66666667,101.6666667,"1. geometria_1.py: llamado a “print(interseccion(p1, p2, c,r))” indebido, variables no definidas 2. No genera TempPromedios.txt 3. false !=’false’"
 Luisa Daniela Acosta Agudelo,"February 19, 2018 4:08:41 PM",1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,103.3333333,113.3333333,1. “False”!=false 2. geometria_2.py
 Mariana Gutierrez Gomez,"February 19, 2018 4:10:24 PM",1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,83.33333333,90,"1. “False”!=false 2. El código geometria_1.py no da los resultados correctos, revisar."
