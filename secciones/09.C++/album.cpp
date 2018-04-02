@@ -5,6 +5,7 @@ using namespace std;
 class Album{
 public:
   void CompraSobre(int n_en_sobre);
+  void Status(void);
   Album(int n);
   
 private:
@@ -16,15 +17,25 @@ private:
   int *repetidas;
 };
 
+void Album::Status(void){
+  cout << n_en_album << " "<<n_repetidas << endl;
+}
+
 void Album::CompraSobre(int n_en_sobre){
-  int * sobre;
-  sobre = new int[n_en_sobre];
-  cout << n_en_sobre << " "<< n_total<< endl;
-  //  delete [] sobre;
+  int lamina;
+  for(int i=0;i<n_en_sobre;i++){
+    lamina = rand()%n_total;
+    if(album[lamina]==0){
+      album[lamina] = 1;
+      n_en_album++;
+    }else{
+      repetidas[lamina] +=1;
+      n_repetidas++;
+    }
+  }
 }
 
 Album::Album(int n){
-  cout << "Creando el album" << endl;
   album = new int[n];
   repetidas = new int[n];
   n_total = n;
@@ -37,7 +48,10 @@ Album::Album(int n){
 }
 
 int main(){
-  Album A(120);
-  A.CompraSobre(5);
-  //  A.CompraSobre(5);
+  srand(time(0));
+  Album A(660);
+  for(int i=0;i<160;i++){
+    A.CompraSobre(5);
+    A.Status();
+  }
 }
