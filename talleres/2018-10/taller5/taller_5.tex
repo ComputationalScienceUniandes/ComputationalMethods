@@ -8,6 +8,7 @@
 
 \documentclass[11pt,letterpaper]{exam}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{tabularx}
@@ -56,7 +57,7 @@ la gr\'afica solicitada.
 
 \question{\bf{Condensador de placas paralelas}}
 
-(20 puntos) Considere un condensador de placas paralelas ubicado
+(25 (30) puntos) Considere un condensador de placas paralelas ubicado
 en una regi\'on bidimensional del espacio, de dimensiones $L\times
 L$. Las placas tienen un largo $l$ y una separaci\'on $d$ entre ellas, como se
 muestra en la figura \ref{fig:gridplates}. 
@@ -99,11 +100,46 @@ potencial y el campo el\'ectrico usando \verb'imshow' y
 \verb'streamplot' en una grafica llamada \verb'placas.pdf'.
 
 Utilice $L = 5$ cm, $l = 2$ cm, $d = 1$ cm, $h = 5/512$ cm, $V_0 = 100$ V y $N = 2\times (L/h)^2$ iteraciones.
- 
+
+\question{{\bf Cuerda Vibrando}}
+
+(25 (30) puntos) Considere una cuerda de longitud $L$ descrita por la funci\'on
+$u(x,t)$ que corresponde al desplazamiento con respecto a su
+posici\'on de equilibrio. Despu\'es de una perturbaci\'on inicial, la
+evoluci\'on de $u$ est\'a dada por 
+
+\begin{equation}
+\frac{\partial^2 u (x,t)}{\partial x^2} =
+\frac{1}{c^2}\frac{\partial^2 u}{\partial t^2}
+\end{equation}
+
+donde $c=\sqrt{T/\rho}$ es una velocidad de propagaci\'on con $T$ la
+tensi\'on de la cuerda y $\rho$ su densidad.
+
+Las condiciones de contorno corresponden a puntos fijos.  Como
+condici\'on inicial se tiene que la cuerda est\'a estirada de forma
+triangular, con el m\'aximo ubicado a $8/10$ de la longitud total de
+la cuerda con una altura $1$. Es decir,
+
+\begin{equation}
+u(x,t=0) = 
+\begin{cases}
+1.25x/L & x \leq 0.8L\\
+5-5x/L & x>0.8L
+\end{cases}
+\end{equation}
+
+Escriba un programa en C++ (\verb'cuerda.cpp') que resuelva esta
+ecuaci\'on y encuentre $u(x,t)$. Escriba un c\'odigo en Python (\verb'animacion.py').
+que produzca un gif animado (\verb'cuerda.gif') con el movimiento
+resultante de la cuerda. 
+
+Utilice $T=40$, $\rho = 10$ y $L=100$ para $0<t<200$. 
+
 
 \question{{\bf Caos}}
 
-(40 (45) puntos) Escriba un c\'odigo para resolver el siguiente
+(50 (60) puntos) Escriba un c\'odigo para resolver el siguiente
 sistema de ecuaciones con un m\'etodo Runge-Kutta de cuarto orden.
 
 \begin{equation}
@@ -126,7 +162,7 @@ sistema de ecuaciones con un m\'etodo Runge-Kutta de cuarto orden.
 
 Tome un paso de tiempo $\Delta t=0.006$, un tiempo total de
 $t=3000$, condiciones iniciales $(q_1, p_1)=(a,0)$ y $(q_2,
-p_2)=(-a,0)$ con $a=1/(2\sqrt{2})$ y $\epsilon=10^-3$.
+p_2)=(-a,0)$ con $a=1/(2\sqrt{2})$ y $\epsilon=10^{-3}$.
 
 
 El movimiento descrito por $q_1$ es peri\'odico. Para visualizar el
