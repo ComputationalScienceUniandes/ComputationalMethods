@@ -1,27 +1,27 @@
-Apellidos,Nombres,Tarea 1 (14%),Tarea 2 (14%),Tarea 3 (14%),Ejercicio 6 (3.75 %),Acumulado (45.75 %)
-Acosta Agudelo,Luisa Daniela,103,58,90,78,4.2
-Acuña Perez,Vivian Valentina,0,100,77,56,2.9
-Bernal Murcia,Catalina María,73,100,87,56,4.2
-Bojacá Rojas,Nicolás David,90,95,57,56,3.9
-Cáceres Torres,Laura Catalina,0,73,80,67,2.6
-Cardona Cañaveral,Nathalia,106,110,0,89,3.7
-Cardona Rocha,Juanita,62,90,0,78,2.6
-Castaño Bonilla,Omar Steven,83,97,67,78,4.1
-Cediel Ramos,Laura,0,100,90,67,3.2
-Copete Plazas,Natalia,90,100,110,89,5.0
-Garzón,Diego Alejandro,101,120,100,89,5.3
-Gomez Melo,Santiago,90,120,110,78,5.2
-Gonzalez Aguilera,Juan Pablo,120,120,110,110,5.8
-Gutierrez Gomez,Mariana,83,97,80,56,4.2
-Lara ,Daniel,0,53,67,56,2.1
-Lesmes Lesmes,Catalina,92,57,60,45,3.4
-Melo Porras,Daniel Gerardo,110,100,97,67,5.0
-Osorio,Juan,0,90,110,0,3.1
-Perdomo Herrera,Germán David,90,67,60,55,3.5
-Rey Robledo,David,106,100,60,89,4.4
-Sanabria Garcia,Rafael David,103,113,50,100,4.5
-Suarez Andrade,Sebastián,0,100,77,56,2.9
-Vergara,Nicolás,0,120,70,100,3.3
-,,,,,Media,3.9
-,,,,,Promedio,3.9
-,,,,,Std. Dev.,1.0
+Apellidos,Nombres,Tarea 1 (14%),Tarea 2 (14%),Tarea 3 (14%),Ejercicio 6 (3.75 %),Ejercicio 13 (3.75 %),Acumulado (49.50 %)
+Acosta Agudelo,Luisa Daniela,103,58,90,78,67,4.1
+Acuña Perez,Vivian Valentina,0,100,77,56,67,3.0
+Bernal Murcia,Catalina María,73,100,87,56,67,4.1
+Bojacá Rojas,Nicolás David,90,95,57,56,67,3.9
+Cáceres Torres,Laura Catalina,0,73,80,67,0,2.4
+Cardona Cañaveral,Nathalia,106,110,0,89,100,3.8
+Cardona Rocha,Juanita,62,90,0,78,0,2.4
+Castaño Bonilla,Omar Steven,83,97,67,78,33,3.9
+Cediel Ramos,Laura,0,100,90,67,67,3.2
+Copete Plazas,Natalia,90,100,110,89,33,4.7
+Garzón,Diego Alejandro,101,120,100,89,100,5.3
+Gomez Melo,Santiago,90,120,110,78,100,5.2
+Gonzalez Aguilera,Juan Pablo,120,120,110,110,100,5.7
+Gutierrez Gomez,Mariana,83,97,80,56,100,4.3
+Lara ,Daniel,0,53,67,56,100,2.3
+Lesmes Lesmes,Catalina,92,57,60,45,67,3.4
+Melo Porras,Daniel Gerardo,110,100,97,67,100,5.0
+Osorio,Juan,0,90,110,0,67,3.1
+Perdomo Herrera,Germán David,90,67,60,55,100,3.7
+Rey Robledo,David,106,100,60,89,67,4.4
+Sanabria Garcia,Rafael David,103,113,50,100,33,4.3
+Suarez Andrade,Sebastián,0,100,77,56,33,2.8
+Vergara,Nicolás,0,120,70,100,67,3.3
+,,,,,Media,,3.9
+,,,,,Promedio,,3.8
+,,,,,Std. Dev.,,1.0
