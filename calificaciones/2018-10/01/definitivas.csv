@@ -1,27 +1,27 @@
-Apellidos,Nombres,Tarea 1 (14%),Tarea 2 (14%),Tarea 3 (14%),Tarea 4 (14%),Ejercicio 6 (3.75 %),Ejercicio 13 (3.75 %),Acumulado (63.50 %)
-Acosta Agudelo,Luisa Daniela,103,58,90,0,78,67,3.2
-Acuña Perez,Vivian Valentina,0,100,77,60,56,67,3.0
-Bernal Murcia,Catalina María,73,100,87,60,56,67,3.9
-Bojacá Rojas,Nicolás David,90,95,57,40,56,67,3.5
-Cáceres Torres,Laura Catalina,0,73,80,70,67,0,2.7
-Cardona Cañaveral,Nathalia,106,110,0,85,89,100,3.9
-Cardona Rocha,Juanita,62,90,0,0,78,0,1.9
-Castaño Bonilla,Omar Steven,83,97,67,80,78,33,3.9
-Cediel Ramos,Laura,0,100,90,80,67,67,3.4
-Copete Plazas,Natalia,90,100,110,60,89,33,4.3
-Garzón,Diego Alejandro,101,120,100,100,89,100,5.2
-Gomez Melo,Santiago,90,120,110,60,78,100,4.7
-Gonzalez Aguilera,Juan Pablo,120,120,110,100,110,100,5.6
-Gutierrez Gomez,Mariana,83,97,80,90,56,100,4.3
-Lara ,Daniel,0,53,67,60,56,100,2.4
-Lesmes Lesmes,Catalina,92,57,60,100,45,67,3.7
-Melo Porras,Daniel Gerardo,110,100,97,60,67,100,4.5
-Osorio,Juan,0,90,110,90,0,67,3.4
-Perdomo Herrera,Germán David,90,67,60,0,55,100,2.8
-Rey Robledo,David,106,100,60,50,89,67,3.9
-Sanabria Garcia,Rafael David,103,113,50,40,100,33,3.8
-Suarez Andrade,Sebastián,0,100,77,100,56,33,3.3
-Vergara,Nicolás,0,120,70,80,100,67,3.5
-,,,,,,Media,,3.7
-,,,,,,Promedio,,3.7
-,,,,,,Std. Dev.,,0.9
+Apellidos,Nombres,T1,T2,T3,T4,T5,Ej 6,Ej 13,Ej 21,Ej 26,Ej AVG,Final,Bono Lab,Definitiva
+Acosta Agudelo,Luisa Daniela,103,58,90,0,50,78,67,100,67,78,0,0,2.7
+Acuña Perez,Vivian Valentina,0,100,77,60,75,56,67,67,67,64,0,0,2.7
+Bernal Murcia,Catalina María,73,100,87,60,92,56,67,100,100,81,0,0,3.5
+Bojacá Rojas,Nicolás David,90,95,57,40,67,56,67,33,100,64,0,0,2.9
+Cáceres Torres,Laura Catalina,0,73,80,70,83,67,0,67,67,50,0,0,2.5
+Cardona Cañaveral,Nathalia,106,110,0,85,83,89,100,0,67,64,0,0,3.2
+Cardona Rocha,Juanita,62,90,0,0,0,78,0,0,0,0,0,0,1.1
+Castaño Bonilla,Omar Steven,83,97,67,80,100,78,33,50,0,0,0,0,3.0
+Cediel Ramos,Laura,0,100,90,80,75,67,67,67,67,67,0,0,2.9
+Copete Plazas,Natalia,90,100,110,60,75,89,33,0,67,47,0,0,3.4
+Garzón,Diego Alejandro,101,120,100,100,67,89,100,100,67,89,0,0,4.1
+Gomez Melo,Santiago,90,120,110,60,100,78,100,100,100,95,0,0,4.1
+Gonzalez Aguilera,Juan Pablo,120,120,110,100,83,110,100,100,100,103,0,0,4.5
+Gutierrez Gomez,Mariana,83,97,80,90,83,56,100,100,67,81,0,0,3.6
+Lara ,Daniel,0,53,67,60,33,56,100,0,0,0,0,0,1.5
+Lesmes Lesmes,Catalina,92,57,60,100,75,45,67,33,67,53,0,0,3.1
+Melo Porras,Daniel Gerardo,110,100,97,60,83,67,100,100,100,92,0,0,3.8
+Osorio,Juan,0,90,110,90,83,0,67,67,67,50,0,0,3.0
+Perdomo Herrera,Germán David,90,67,60,0,42,55,100,33,67,64,0,0,2.3
+Rey Robledo,David,106,100,60,50,83,89,67,83,0,0,0,0,2.8
+Sanabria Garcia,Rafael David,103,113,50,40,83,100,33,100,100,83,0,0,3.4
+Suarez Andrade,Sebastián,0,100,77,100,83,56,33,0,67,39,0,0,2.8
+Vergara,Nicolás,0,120,90,80,83,100,67,100,100,92,0,0,3.3
+,,,,,,,Media,,,,,,,3.0
+,,,,,,,Promedio,,,,,,,3.0
+,,,,,,,Std. Dev.,,,,,,,0.8
