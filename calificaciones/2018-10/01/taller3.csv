@@ -24,7 +24,7 @@ Perdomo Herrera,Germán David,1,1,1,1,0,0,1,0,1,1,0,0,1,0,60,"2. Error en compar
 Rey Robledo,David,1,1,1,1,0,0,1,0,1,1,0,0,1,0,60,"3. Error en ejecución “ValueError: could not convert string to float: """",""trt"",""age"",""educ"",""black"",""hisp"",""marr"",""nodeg"",""re74"",""re75"",""re78"".” 4.Error en ejecución. No realiza método de spline cúbico según instrvariable.",,,,,,,,
 Sanabria Garcia,Rafael David,1,1,1,1,1,1,1,0,0,0,0,0,0,0,50,3. No realizó script pca_salario.py 4. No realizó interpolacion.py,,,,,,,,
 Suarez Andrade,Sebastián,1,0,1,1,0,0,1,1,1,1,0,1,1,0,76.66666667,"2. berlin.py no ejecuta 4. Error en ejecución, intenta convertir Nan to integer (linea28). ",,,,,,,,
-Vergara,Nicolás,1,1,1,1,0,0,1,1,1,1,0,0,1,0,70,2. berlin.py No funciona. 4. Error en funcionamiento y en código. ,,,,,,,,
+Vergara,Nicolás,1,1,1,1,1,1,1,1,1,1,0,0,1,0,90,2. berlin.py No funciona. 4. Error en funcionamiento y en código. ,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,
