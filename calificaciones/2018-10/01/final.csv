@@ -1,24 +1,24 @@
 Apellidos,Nombres,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,P1,P2,P3,P4,P5,TOTAL
-Acosta Agudelo,Luisa Daniela,,,,,,,,,,,,,2,5,2,0,3,12
-Acuña Perez,Vivian Valentina,,,,,,,,,,,,,1,1,1,2,1,6
-Bernal Murcia,Catalina María,,,,,,,,,,,,,0,2,2,3,3,10
-Bojacá Rojas,Nicolás David,,,,,,,,,,,,,2,5,5,3,0,15
-Cáceres Torres,Laura Catalina,,,,,,,,,,,,,1,1,1,2,0,5
-Cardona Cañaveral,Nathalia,,,,,,,,,,,,,2,5,2,3,3,15
+Acosta Agudelo,Luisa Daniela,5,5,5,5,5,2,5,5,2,0,5,2,2,5,2,0,3,58
+Acuña Perez,Vivian Valentina,5,5,2,5,5,2,5,5,5,2,5,0,1,1,1,2,1,52
+Bernal Murcia,Catalina María,5,5,5,5,5,0,5,5,5,0,0,0,0,2,2,3,3,50
+Bojacá Rojas,Nicolás David,5,5,0,5,5,5,5,2,2,5,5,2,2,5,5,3,0,61
+Cáceres Torres,Laura Catalina,0,5,0,5,5,5,5,2,0,2,0,0,1,1,1,2,0,34
+Cardona Cañaveral,Nathalia,5,5,5,5,5,2,5,2,5,0,5,2,2,5,2,3,3,61
 Cardona Rocha,Juanita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Castaño Bonilla,Omar Steven,,,,,,,,,,,,,1,5,1,0,0,7
-Cediel Ramos,Laura,,,,,,,,,,,,,1,1,1,1,1,5
-Copete Plazas,Natalia,,,,,,,,,,,,,2,5,2,3,0,12
-Garzón,Diego Alejandro,,,,,,,,,,,,,5,2,2,5,15,29
-Gomez Melo,Santiago,,,,,,,,,,,,,5,5,5,10,0,25
-Gonzalez Aguilera,Juan Pablo,,,,,,,,,,,,,5,5,5,3,3,21
-Gutierrez Gomez,Mariana,,,,,,,,,,,,,0,2,1,3,3,9
-Lara ,Daniel,,,,,,,,,,,,,2,2,2,4,0,10
-Lesmes Lesmes,Catalina,,,,,,,,,,,,,2,2,2,3,3,12
-Melo Porras,Daniel Gerardo,,,,,,,,,,,,,2,1,2,0,5,10
-Osorio,Juan,,,,,,,,,,,,,5,5,2,0,5,17
-Perdomo Herrera,Germán David,,,,,,,,,,,,,,,,,,0
-Rey Robledo,David,,,,,,,,,,,,,1,5,1,0,3,10
-Sanabria Garcia,Rafael David,,,,,,,,,,,,,5,5,5,3,3,21
-Suarez Andrade,Sebastián,,,,,,,,,,,,,1,1,1,1,0,4
-Vergara,Nicolás,,,,,,,,,,,,,5,5,2,3,3,18
+Castaño Bonilla,Omar Steven,2,5,0,5,0,2,5,5,0,5,0,0,1,5,1,0,0,36
+Cediel Ramos,Laura,5,5,2,2,5,2,5,2,0,2,2,2,1,1,1,1,1,39
+Copete Plazas,Natalia,5,5,5,5,5,5,5,5,2,0,5,0,2,5,2,3,0,59
+Garzón,Diego Alejandro,5,5,5,5,5,0,2,5,2,0,5,0,5,2,2,5,15,68
+Gomez Melo,Santiago,5,5,0,5,5,0,5,5,5,2,5,5,5,5,5,10,0,72
+Gonzalez Aguilera,Juan Pablo,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,3,3,81
+Gutierrez Gomez,Mariana,5,5,0,5,5,5,5,5,5,0,5,5,0,2,1,3,3,59
+Lara ,Daniel,5,5,0,5,5,5,2,2,5,5,2,0,2,2,2,4,0,51
+Lesmes Lesmes,Catalina,5,5,2,5,5,2,5,2,0,2,5,0,2,2,2,3,3,50
+Melo Porras,Daniel Gerardo,5,5,5,5,5,0,5,5,2,5,5,0,2,1,2,0,5,57
+Osorio,Juan,5,5,5,5,5,5,0,5,2,0,5,2,5,5,2,0,5,61
+Perdomo Herrera,Germán David,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rey Robledo,David,5,0,2,2,5,2,5,5,5,0,2,5,1,5,1,0,3,48
+Sanabria Garcia,Rafael David,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,3,3,81
+Suarez Andrade,Sebastián,5,5,2,5,5,2,5,2,2,2,2,2,1,1,1,1,0,43
+Vergara,Nicolás,2,5,0,5,5,5,5,5,5,2,5,5,5,5,2,3,3,67
