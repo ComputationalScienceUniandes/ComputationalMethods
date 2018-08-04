@@ -1,0 +1,119 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+{\Large Métodos Computacionales} \\
+Examen Final -- 2018-10 \\
+\end{center}
+
+\begin{questions}
+\question {{\bf C++.}}
+Escriba una funci\'on en C++ que tome
+como entrada un entero \verb"a" y retorne un flotante con el valor de \verb"a" dividido entre dos.
+
+
+\question {{\bf Python.}}
+Escriba una funci\'on en Python que tome
+como entrada dos n\'umeros \verb"a" y \verb"b" y que 
+imprima el mensaje \verb"a es mayor que b" si \verb"a" es mayor que \verb"b".
+
+
+\question {{\bf Unix.}}
+Escriba un comando de consola para mover todos los archivos con extensi\'on
+\verb".dat" que existen en un directorio a otro directorio llamado
+\verb"Prueba". 
+Suponga que ejecuta el
+comando dentro del directorio que contiene los archivos y el
+directorio \verb"Prueba".
+
+
+\question {{\bf Git.}}
+Escriba la secuencia de comandos para incluir un nuevo 
+un nuevo  archivo \verb"datos.dat" a un repositorio local y luego sincronizarlo con github.
+Suponga que ya se encuentra dentro del repositorio local y que este ya se encuentra
+enlazado con github.
+
+
+\question {{\bf Makefile.}}
+Escriba un makefile que: a) compile el c\'odigo \verb"datos.cpp", b) ejecute 
+el archivo resultante de la compilaci\'on y redireccione 
+la salida  al archivo \verb"datos.dat", y c) ejecute el script \verb"graficas.py", 
+para generar la figura  \verb"grafica1.pdf" a partir de los datos en \verb"datos.dat". 
+El makefile debe enlazar correcto la secuencia causal entre los diferentes archivos. 
+Por ejemplo, si todos los archivos se encuentran al d\'ia y se borra
+el archivo \verb"pdf", y luego se ejecuta \verb"make", entonces
+solamente se debe ejecutar el comando que genera el \verb"pdf". 
+
+
+\question {{\bf Principal Component Analysis.}}
+Suponga que usted tiene $N$ mediciones de tres cantidades diferentes $x_1$, $x_2$ y
+$x_3$. C\'omo se pueden interpretar los auto-valores de la matriz de
+covarianza?
+
+
+\question {{\bf Ecuaciones Diferenciales Ordinarias.}}
+Describa la diferencia principal en la construcción de los diferentes
+esquemas expl\'icitos de solucion de ecuaciones diferenciales
+ordinarias vistos en clase (Euler, Runge-Kutta, etc).
+
+
+\question {{\bf Ecuaciones Diferenciales Parciales.}}
+Considere la ecuaci\'on diferencial parcial de primer orden
+$\partial_t u + c \partial_x u=0$, donde $c$ es una constante
+positiva.
+Escriba un esquema de diferencias finitas estable para resolver esta
+ecuaci\'on diferencial. 
+Describa la condici\'on que deben cumplir $\Delta x$ y
+$\Delta t$ para que la soluci\'on propuesta sea estable.
+
+
+\question {{\bf Transformada de Fourier.}}
+Suponga que tiene una secuencia de datos $x_0, \ldots, x_{N-1}$
+equiespaciados temporalmente por $\Delta t=10^{-3}$ con $N=10^6$.
+Suponga adem\'as que los resultados de la transformada discreta de Fourier
+est\'a dada por $\hat{x}_0, \ldots, \hat{x}_{N-1}$ (con la
+  definici\'on vista en clase).
+Describa los pasos que debe hacer para construir una nueva secuencia
+de datos que borre la informaci\'on de frecuencias mayores a 10Hz de
+la secuencia original.
+
+
+\question {{\bf Diferenciaci\'on.}}
+De un ejemplo gr\'afico en el que el m\'etodo de Newton-Raphson falla.
+
+\question {{\bf Integraci\'on.}}
+Describa un m\'etodo para integrar num\'ericamente una funci\'on
+$f(x)$ en el intervalo $a<x<b$. 
+Haga expl\'icitas las condiciones que debe cumplir
+$f(x)$ para que su m\'etodos funcione.
+
+
+\question {{\bf Monte Carlo.}}
+$N$ proyectiles con diferentes velocidades iniciales se lanzan
+verticalmente. Se miden las $N$ diferentes alturas m\'aximas que 
+alcanzan ${h_1,\ldots h_{N}}$. Todas las mediciones tienen la misma 
+incertidumbre $\sigma_h$.
+Describa como aplicar\'ia un m\'etodo Monte Carlo (i.e. que
+utilice n\'umeros aleatorios) para encontrar densidad de probabilidad
+del valor de la gravedad, $g$, dadas las $N$ observaciones.
+
+
+\end{questions}
+\end{document}
